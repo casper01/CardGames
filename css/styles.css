@@ -6,3 +6,7 @@
 .info {
     font-style: italic;
 }
+
+.cursor-hand {
+    cursor: pointer;
+}

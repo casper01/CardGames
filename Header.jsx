@@ -1,10 +1,22 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 
 class Header extends React.Component {
+    constructor(props) {
+        super(props);
+
+        // bindings
+        this.goToMainPage = this.goToMainPage.bind(this);
+    }
+
+    goToMainPage() {
+        window.location = '/';
+    }
+
     render() {
         return (
-            <div className="header">
+            <div className="header cursor-hand" onClick={this.goToMainPage}>
                 <h1>{ this.props.mainHeader }</h1>
                 <h2>{ this.props.subHeader }</h2>
             </div>
