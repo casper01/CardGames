@@ -7,7 +7,7 @@ class Tysiac extends React.Component {
             <div>
                 <div className="content">
                     <h1 className="content-subhead main-header">Tysiąc</h1>
-                    <i>Jeden z licznych wariantów francuskiego mariasza, szczególnie rozpowszechniony i popularny w Polsce.</i>
+                    <div className="info">Jeden z licznych wariantów francuskiego mariasza, szczególnie rozpowszechniony i popularny w Polsce.</div>
                     <h2 className="content-subhead">Gracze</h2>
                     <p>Gra dla 2 [3 i 4] osób.</p>
 

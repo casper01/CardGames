@@ -102,6 +102,9 @@ class GamesList extends React.Component {
                         <li className="pure-menu-item"><Link to="/tysiac" className="pure-menu-link">
                             1000 (zob. Tysiąc) - gra dla 2 [3 i 4] osób
                         </Link></li>
+                        <li className="pure-menu-item"><Link to="/machana" className="pure-menu-link">
+                            1224 (zob. Machana) - gra dla 2 - 4 graczy
+                        </Link></li>
                     </ul>
 
                     <h1 className="content-subhead">
