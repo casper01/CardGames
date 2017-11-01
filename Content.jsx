@@ -20,9 +20,4 @@ class Content extends React.Component {
     }
 }
 
-// Content.defaultProps = {
-//     mainHeader: "",
-//     subHeader: ""
-// }
-
 export default Content;
