@@ -1,5 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Tysiac from './games/Tysiac.jsx';
+import Machana from './games/Machana.jsx';
+import A1000 from './games/A1000.jsx';
+import A1224 from './games/A1224.jsx';
+import BlackJack from './games/BlackJack.jsx';
+import A21 from './games/A21.jsx';
 
 
 class GamesList extends React.Component {
@@ -8,32 +14,12 @@ class GamesList extends React.Component {
 
         this.state = {
             data: [
-                {
-                    name: '1000',
-                    name2: 'Tysiąc',
-                    desc: 'gra dla 2 [3 i 4] osób',
-                    url: '/tysiac',
-                    players: [2, 3, 4]
-                },
-                {
-                    name: '1224',
-                    name2: 'Machana',
-                    desc: 'gra dla 2 - 4 graczy',
-                    url: '/machana',
-                    players: [2, 3, 4]
-                },
-                {
-                    name: 'Machana',
-                    desc: 'gra dla 2 - 4 graczy',
-                    url: '/machana',
-                    players: [2, 3, 4]
-                },
-                {
-                    name: 'Tysiąc',
-                    desc: 'gra dla 2 [3 i 4] osób',
-                    url: '/tysiac',
-                    players: [2, 3, 4]
-                },
+                new A1000(),
+                new A1224(),
+                new A21(),
+                new BlackJack(),
+                new Tysiac(),
+                new Machana()
             ]
         }
 
@@ -56,7 +42,7 @@ class GamesList extends React.Component {
         var indices = [];
 
         for (var i = 0; i < this.state.data.length; i++) {
-            var index = this.getNameIndex(this.state.data[i].name);
+            var index = this.getNameIndex(this.state.data[i].state.name);
             if (!indices.includes(index)) {
                 indices.push(index);
             }
@@ -69,7 +55,7 @@ class GamesList extends React.Component {
         var indices = this.getOrderedUniqueIndices();
         var data = this.state.data;
         data.sort(function (a, b) {
-            return a.name > b.name;
+            return a.state.name > b.state.name;
         });
 
         var indicesInd = 0;
@@ -82,8 +68,8 @@ class GamesList extends React.Component {
                 data: []
             });
 
-            while (dataInd < data.length && indices[indicesInd] == this.getNameIndex(data[dataInd].name)) {
-                datasets[indicesInd].data.push(data[dataInd]);
+            while (dataInd < data.length && indices[indicesInd] == this.getNameIndex(data[dataInd].state.name)) {
+                datasets[indicesInd].data.push(data[dataInd].state);
                 dataInd++;
             }
             indicesInd++;

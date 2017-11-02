@@ -5,16 +5,20 @@ class Machana extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: 'Machana'
+            name: 'Machana',
+            desc: 'gra dla 2 - 4 graczy',
+            url: '/machana',
+            players: [2, 3, 4],
+            cards: 'Mała talia kart + Joker (25 karty)'
         }
-        document.title = this.state.name;
     }
-
+    
     render() {
+        document.title = this.state.name;
         return (
             <div>
                 <div className="content">
-                    <h1 className="content-subhead main-header">Machana</h1>
+                    <h1 className="content-subhead main-header">{this.state.name}</h1>
                     <div className="info"> Gra polska, stworzona około 1948 roku. Znana jest również pod nazwą 1224</div>
 
                     <h2 className="content-subhead">Gracze</h2>

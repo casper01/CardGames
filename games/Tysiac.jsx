@@ -5,12 +5,16 @@ class Tysiac extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: 'Tysiąc'
+            name: 'Tysiąc',
+            desc: 'gra dla 2 [3 i 4] osób',
+            url: '/tysiac',
+            players: [2, 3, 4],
+            cards: "Mała talia kart (24 karty)"
         }
-        document.title = this.state.name;
     }
 
     render() {
+        document.title = this.state.name;
         return (
             <div>
                 <div className="content">
