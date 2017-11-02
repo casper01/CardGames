@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Tysiac extends React.Component {
+export default class Tysiac extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -128,5 +128,3 @@ class Tysiac extends React.Component {
         );
     }
 }
-
-export default Tysiac;

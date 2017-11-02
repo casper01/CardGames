@@ -4,6 +4,7 @@ import GamesList from './GamesList.jsx';
 import Tysiac from './games/Tysiac.jsx';
 import Machana from './games/Machana.jsx';
 import BlackJack from './games/BlackJack.jsx';
+import TrzydziesciJeden from './games/TrzydziesciJeden.jsx';
 
 
 class Content extends React.Component {
@@ -14,6 +15,7 @@ class Content extends React.Component {
                 <Route path="/tysiac" component={Tysiac} />
                 <Route path="/machana" component={Machana} />
                 <Route path="/blackjack" component={BlackJack} />
+                <Route path="/trzydziescijeden" component={TrzydziesciJeden} />
             </Switch>
         );
     }

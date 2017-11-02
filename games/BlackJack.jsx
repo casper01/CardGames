@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class BlackJack extends React.Component {
+export default class BlackJack extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -93,5 +93,3 @@ class BlackJack extends React.Component {
         );
     }
 }
-
-export default BlackJack;

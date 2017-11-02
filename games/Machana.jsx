@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Machana extends React.Component {
+export default class Machana extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -73,5 +73,3 @@ class Machana extends React.Component {
         );
     }
 }
-
-export default Machana;
