@@ -3,6 +3,7 @@ import React from 'react';
 
 class Tysiac extends React.Component {
     render() {
+        document.title = "Tysiąc";
         return (
             <div>
                 <div className="content">
@@ -39,7 +40,7 @@ class Tysiac extends React.Component {
                         meldunek pikowy 40pkt <br />
                     </p>
                     <p>
-                        Po zgłoszeniu meldunku zgłaszający go ma obowiązek wyjść jedną z kart meldunku (w króla lub w damę).
+                        Po zgłoszeniu meldunku zgłaszający go ma obowiązek wyjść jedną z kart meldunku (w króla lub w damę).<br />
                         W momencie wyjścia kolor meldunku staje się kolorem atutowym aż do końca rozgrywki lub do chwili zgłoszenia następnego meldunku, który z kolei staje się kolorem atutowym.
                     </p>
 
@@ -52,22 +53,22 @@ class Tysiac extends React.Component {
                     </p>
                 </div>
                 <div className="content">
-                    <h1 className="content-subhead main-header">Tysiąc licytowany</h1>
+                    <h1 name="tysiac-licytowany" className="content-subhead main-header">Tysiąc licytowany</h1>
                     <p>
-                        Wariant gry.
+                        Wariant gry.<br />
                         Każdy z graczy otrzymuje po dziesięć kart, pozostałe cztery karty leżą na stole w dwu zakrytych talonach po dwie karty w każdym z nich.
-</p>
+                    </p>
                     <p>
                         Pierwszym etapem rozdania jest licytacja. W licytacji, którą rozpoczyna przeciwnik rozdającego, gracze kolejno deklarują ilość punktów, które zobowiązują się zdobyć w rozgrywce. Przeciwnik rozdającego pierwszy ma obowiązek zgłosić w licytacji 100 punktów, choćby nie miał szans ich zdobycia w rozgrywce (jest "na musiku" - musi licytować).
-</p>
+                    </p>
                     <p>
-                        Wygrywa licytację ten z graczy, który zgłosi najwyższą ilość punktów. Wygrywający licytację podejmuje ze stołu jeden wybrany przez siebie talon, okazuje karty w nim przeciwnikowi, włącza karty z talonu do kart na ręku i następnie dwie dowolnie wybrane karty z ręki umieszcza znowu na stole w zakrytym talonie.
+                        Wygrywa licytację ten z graczy, który zgłosi najwyższą ilość punktów. Wygrywający licytację podejmuje ze stołu jeden wybrany przez siebie talon, okazuje karty w nim przeciwnikowi, włącza karty z talonu do kart na ręku i następnie dwie dowolnie wybrane karty z ręki umieszcza znowu na stole w zakrytym talonie.<br />
                         Wygrywający licytację może, jeśli chce, po podjęciu talonu, podwyższyć swoją ostatnią zapowiedź licytacyjną, zgłaszając do rozgrywki jeszcze większą ilość punktów.
-</p>
+                    </p>
                     <p>
-                        Jeśli rozgrywający zdobył zadeklarowaną lub większą ilość punktów, to tę zadeklarowaną liczbę mu się zapisuje. Jeśli ich nie zdobył odpisuje mu się zadeklarowaną liczbę punktów jako minusowe.
+                        Jeśli rozgrywający zdobył zadeklarowaną lub większą ilość punktów, to tę zadeklarowaną liczbę mu się zapisuje. Jeśli ich nie zdobył odpisuje mu się zadeklarowaną liczbę punktów jako minusowe.<br />
                         Przeciwnikowi rozgrywającego zapisuje się ilość punktów faktycznie przez niego zdobytą w lewach i zgłoszonych meldunkach.
-</p>
+                    </p>
                     <p>
                         W rozgrywce i w obliczeniach bierze udział 20 kart obydwu rąk, bez czterech kart z obydwu talonów, z jednym wyjątkiem: jeśli wygrywający licytację zadeklarował 120 punktów, w trakcie rozgrywki nie zgłosił zaś żadnego meldunku, lecz wziął wszystkie lewy, wówczas i wartość obydwu talonów dolicza się do jego zdobyczy (suma punktów wszystkich kart w talii jest równa 120)
                     </p>
@@ -75,19 +76,19 @@ class Tysiac extends React.Component {
                 <div className="content">
                     <h1 className="content-subhead main-header">Tysiąc licytowany dla trzech osób</h1>
                     <p>
-                        Wariant gry.
+                        Wariant gry.<br />
                         Każdy z trzech graczy otrzymuje po siedem kart, trzy karty pozostają na stole w zakrytym talonie.
-</p>
+                    </p>
                     <p>
                         Zasady licytacji bez zmian.
-</p>
+                    </p>
                     <p>
                         Wygrywający licytację podejmuje karty z talonu, pokazuje przeciwnikom i umieszcza je na ręku. Następnie dwie dowolne karty z ręki przekazuje - po jednej, zakryte - każdemu z przeciwników. <br />
                         W rozgrywce biorą udział wszystkie karty.
-</p>
+                    </p>
                     <p>
                         Zasady rozgrywki i zapisu bez zmian.
-</p>
+                    </p>
                 </div>
                 <div className="content">
                     <h1 className="content-subhead main-header">Tysiąc licytowany dla czterech osób</h1>

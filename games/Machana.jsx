@@ -3,6 +3,7 @@ import React from 'react';
 
 class Machana extends React.Component {
     render() {
+        document.title = "Machana";
         return (
             <div>
                 <div className="content">

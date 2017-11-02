@@ -10,19 +10,23 @@ class GamesList extends React.Component {
             data: [
                 {
                     name: '1000 (zob. Tysiąc) - gra dla 2 [3 i 4] osób',
-                    url: '/tysiac'
+                    url: '/tysiac',
+                    players: [2, 3, 4]
                 },
                 {
                     name: '1224 (zob. Machana) - gra dla 2 - 4 graczy',
-                    url: '/machana'
+                    url: '/machana',
+                    players: [2, 3, 4]
                 },
                 {
                     name: 'Machana - gra dla 2 - 4 graczy ',
-                    url: '/machana'
+                    url: '/machana',
+                    players: [2, 3, 4]
                 },
                 {
                     name: 'Tysiąc - gra dla 2 [3 i 4] osób ',
-                    url: '/tysiac'
+                    url: '/tysiac',
+                    players: [2, 3, 4]
                 },
             ]
         }
