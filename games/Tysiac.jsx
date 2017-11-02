@@ -2,12 +2,19 @@ import React from 'react';
 
 
 class Tysiac extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: 'Tysiąc'
+        }
+        document.title = this.state.name;
+    }
+
     render() {
-        document.title = "Tysiąc";
         return (
             <div>
                 <div className="content">
-                    <h1 className="content-subhead main-header">Tysiąc</h1>
+                    <h1 className="content-subhead main-header">{this.state.name}</h1>
                     <div className="info">Jeden z licznych wariantów francuskiego mariasza, szczególnie rozpowszechniony i popularny w Polsce.</div>
                     <h2 className="content-subhead">Gracze</h2>
                     <p>Gra dla 2 [3 i 4] osób.</p>

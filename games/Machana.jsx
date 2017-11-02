@@ -2,8 +2,15 @@ import React from 'react';
 
 
 class Machana extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: 'Machana'
+        }
+        document.title = this.state.name;
+    }
+
     render() {
-        document.title = "Machana";
         return (
             <div>
                 <div className="content">

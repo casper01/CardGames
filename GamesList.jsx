@@ -9,22 +9,28 @@ class GamesList extends React.Component {
         this.state = {
             data: [
                 {
-                    name: '1000 (zob. Tysiąc) - gra dla 2 [3 i 4] osób',
+                    name: '1000',
+                    name2: 'Tysiąc',
+                    desc: 'gra dla 2 [3 i 4] osób',
                     url: '/tysiac',
                     players: [2, 3, 4]
                 },
                 {
-                    name: '1224 (zob. Machana) - gra dla 2 - 4 graczy',
+                    name: '1224',
+                    name2: 'Machana',
+                    desc: 'gra dla 2 - 4 graczy',
                     url: '/machana',
                     players: [2, 3, 4]
                 },
                 {
-                    name: 'Machana - gra dla 2 - 4 graczy ',
+                    name: 'Machana',
+                    desc: 'gra dla 2 - 4 graczy',
                     url: '/machana',
                     players: [2, 3, 4]
                 },
                 {
-                    name: 'Tysiąc - gra dla 2 [3 i 4] osób ',
+                    name: 'Tysiąc',
+                    desc: 'gra dla 2 [3 i 4] osób',
                     url: '/tysiac',
                     players: [2, 3, 4]
                 },
@@ -35,6 +41,7 @@ class GamesList extends React.Component {
         this.printIndices = this.printIndices.bind(this);
         this.printGamesList = this.printGamesList.bind(this);
         this.printGamesDividedByIndices = this.printGamesDividedByIndices.bind(this);
+        this.printGameName = this.printGameName.bind(this);
     }
 
     getNameIndex(name) {
@@ -103,19 +110,35 @@ class GamesList extends React.Component {
     }
 
     printGamesList(games) {
+        var context = this;
         return (
             <ul className="pure-menu-list">
                 {
                     games.map(function (game, i) {
                         return <li key={i} className="pure-menu-item">
                             <Link to={game.url} className="pure-menu-link">
-                                {game.name}
+                                {context.printGameName(game)}
                             </Link>
                         </li>
                     })
                 }
             </ul>
         )
+    }
+
+    printGameName(game) {
+        if (!game.name) {
+            return "UNDEFINED NAME";
+        }
+        var desc = "";
+
+        if (game.name2) {
+            desc += " (zob. " + game.name2 + ")";
+        }
+        if (game.desc) {
+            desc += ' - ' + game.desc;
+        }
+        return <span>{game.name} <span className="description">{desc}</span></span>;
     }
 
     printGamesDividedByIndices() {

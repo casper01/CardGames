@@ -10,3 +10,8 @@
 .cursor-hand {
     cursor: pointer;
 }
+
+.description {
+    font-style: italic;
+    font-size: 9pt;
+}
