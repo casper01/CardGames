@@ -14,11 +14,11 @@ class Content extends React.Component {
         return (
             <Switch>
                 <Route exact path="/" component={GamesList} />
-                <Route path="/tysiac" component={Tysiac} />
-                <Route path="/machana" component={Machana} />
-                <Route path="/blackjack" component={BlackJack} />
-                <Route path="/trzydziescijeden" component={TrzydziesciJeden} />
-                <Route path="/trzytrzynascie" component={TrzyTrzynascie} />
+                <Route path={new Tysiac().state.url} component={Tysiac} />
+                <Route path={new Machana().state.url} component={Machana} />
+                <Route path={new BlackJack().state.url} component={BlackJack} />
+                <Route path={new TrzydziesciJeden().state.url} component={TrzydziesciJeden} />
+                <Route path={new TrzyTrzynascie().state.url} component={TrzyTrzynascie} />
                 <Route path={new A358().state.url} component={A358} />
             </Switch>
         );
