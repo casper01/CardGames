@@ -6,6 +6,7 @@ import Machana from './games/Machana.jsx';
 import BlackJack from './games/BlackJack.jsx';
 import TrzydziesciJeden from './games/TrzydziesciJeden.jsx';
 import TrzyTrzynascie from './games/TrzyTrzynascie.jsx';
+import A358 from './games/A358.jsx';
 
 
 class Content extends React.Component {
@@ -18,6 +19,7 @@ class Content extends React.Component {
                 <Route path="/blackjack" component={BlackJack} />
                 <Route path="/trzydziescijeden" component={TrzydziesciJeden} />
                 <Route path="/trzytrzynascie" component={TrzyTrzynascie} />
+                <Route path={new A358().state.url} component={A358} />
             </Switch>
         );
     }
