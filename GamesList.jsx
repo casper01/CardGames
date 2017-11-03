@@ -8,6 +8,8 @@ import BlackJack from './games/BlackJack.jsx';
 import A21 from './games/A21.jsx';
 import TrzydziesciJeden from './games/TrzydziesciJeden.jsx';
 import A31 from './games/A31.jsx';
+import TrzyTrzynascie from './games/TrzyTrzynascie.jsx';
+import A313 from './games/A313.jsx';
 
 
 class GamesList extends React.Component {
@@ -20,10 +22,12 @@ class GamesList extends React.Component {
                 new A1224(),
                 new A21(),
                 new A31(),
-                new TrzydziesciJeden(),
+                new A313(),
                 new BlackJack(),
-                new Tysiac(),
-                new Machana()
+                new Machana(),
+                new TrzydziesciJeden(),
+                new TrzyTrzynascie(),
+                new Tysiac()
             ]
         }
 

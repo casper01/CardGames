@@ -23,3 +23,23 @@
 .example .title {
     font-weight: bold;
 }
+
+.heart:before {
+    content: " ♥ ";
+    color: crimson;
+}
+
+.spade:before {
+    content: " ♠ ";
+    color: black;
+}
+
+.club:before {
+    content: " ♣ ";
+    color: black;
+}
+
+.diamond:before {
+    content: " ♦ ";
+    color: crimson;
+}
