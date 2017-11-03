@@ -12,6 +12,9 @@ import TrzyTrzynascie from './games/TrzyTrzynascie.jsx';
 import A313 from './games/A313.jsx';
 import A358 from './games/A358.jsx';
 import TrzyPiecOsiem from './games/TrzyPiecOsiem.jsx';
+import SzescdziesiatSzesc from './games/SzescdziesiatSzesc.jsx';
+import A66 from './games/A66.jsx';
+import A66Obierany from './games/A66Obierany.jsx';
 
 
 class GamesList extends React.Component {
@@ -26,8 +29,11 @@ class GamesList extends React.Component {
                 new A31(),
                 new A313(),
                 new A358(),
+                new A66(),
+                new A66Obierany(),
                 new BlackJack(),
                 new Machana(),
+                new SzescdziesiatSzesc(),
                 new TrzydziesciJeden(),
                 new TrzyTrzynascie(),
                 new TrzyPiecOsiem(),

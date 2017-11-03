@@ -7,6 +7,7 @@ import BlackJack from './games/BlackJack.jsx';
 import TrzydziesciJeden from './games/TrzydziesciJeden.jsx';
 import TrzyTrzynascie from './games/TrzyTrzynascie.jsx';
 import A358 from './games/A358.jsx';
+import SzescdziesiatSzesc from './games/SzescdziesiatSzesc.jsx';
 
 
 class Content extends React.Component {
@@ -20,6 +21,7 @@ class Content extends React.Component {
                 <Route path={new TrzydziesciJeden().state.url} component={TrzydziesciJeden} />
                 <Route path={new TrzyTrzynascie().state.url} component={TrzyTrzynascie} />
                 <Route path={new A358().state.url} component={A358} />
+                <Route path={new SzescdziesiatSzesc().state.url} component={SzescdziesiatSzesc} />
             </Switch>
         );
     }

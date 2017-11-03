@@ -43,3 +43,8 @@
     content: " ♦ ";
     color: crimson;
 }
+
+.underline {
+    display: inline;
+    text-decoration: underline;
+}
