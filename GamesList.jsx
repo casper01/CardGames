@@ -16,6 +16,7 @@ import SzescdziesiatSzesc from './games/SzescdziesiatSzesc.jsx';
 import A66 from './games/A66.jsx';
 import A66Obierany from './games/A66Obierany.jsx';
 import Atutowiec from './games/Atutowiec.jsx';
+import Bezik from './games/Bezik.jsx';
 
 
 class GamesList extends React.Component {
@@ -33,6 +34,7 @@ class GamesList extends React.Component {
                 new A66(),
                 new A66Obierany(),
                 new Atutowiec(),
+                new Bezik(),
                 new BlackJack(),
                 new Machana(),
                 new SzescdziesiatSzesc(),
