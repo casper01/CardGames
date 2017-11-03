@@ -39,7 +39,7 @@ class GamesList extends React.Component {
                 new TrzyPiecOsiem(),
                 new Tysiac()
             ]
-        }
+        };
 
         // bindings
         this.printIndices = this.printIndices.bind(this);
@@ -104,13 +104,13 @@ class GamesList extends React.Component {
                     <ul className="pure-menu-list">
                         {indices.map(function (item, i) {
                             return <li key={i} className="pure-menu-item">
-                                <a className="pure-menu-link" href={"#" + item}>{item}</a>
-                            </li>
+                                <a className="pure-menu-link" href={'#' + item}>{item}</a>
+                            </li>;
                         })}
                     </ul>
                 </div>
             </div>
-        )
+        );
     }
 
     printGamesList(games) {
@@ -123,21 +123,21 @@ class GamesList extends React.Component {
                             <Link to={game.url} className="pure-menu-link">
                                 {context.printGameName(game)}
                             </Link>
-                        </li>
+                        </li>;
                     })
                 }
             </ul>
-        )
+        );
     }
 
     printGameName(game) {
         if (!game.name) {
-            return "UNDEFINED NAME";
+            return 'UNDEFINED NAME';
         }
-        var desc = "";
+        var desc = '';
 
         if (game.name2) {
-            desc += " (zob. " + game.name2 + ")";
+            desc += ' (zob. ' + game.name2 + ')';
         }
         if (game.desc) {
             desc += ' - ' + game.desc;
@@ -158,10 +158,10 @@ class GamesList extends React.Component {
                             {set.index}
                         </h1>
                         {context.printGamesList(set.data)}
-                    </div>
+                    </div>;
                 })}
             </div>
-        )
+        );
     }
 
     render() {

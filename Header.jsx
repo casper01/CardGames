@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
 
 
 class Header extends React.Component {
@@ -25,8 +24,8 @@ class Header extends React.Component {
 }
 
 Header.defaultProps = {
-    mainHeader: "",
-    subHeader: ""
-}
+    mainHeader: '',
+    subHeader: ''
+};
 
 export default Header;

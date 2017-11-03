@@ -11,12 +11,13 @@ export default class SzescdziesiatSzesc extends React.Component {
             url: '/szescdziesiatszesc',
             players: [2, 3, 4],
             cards: 'Mała talia kart (24 karty)'
-        }
+        };
     }
 
     componentDidMount() {
         if (this.props.location.hash) {
             var hash = this.props.location.hash.slice(1);
+
             if (document.getElementsByName(hash).length > 0) {
                 document.getElementsByName(hash)[0].scrollIntoView();
             }
