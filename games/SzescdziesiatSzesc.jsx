@@ -14,16 +14,6 @@ export default class SzescdziesiatSzesc extends React.Component {
         };
     }
 
-    componentDidMount() {
-        if (this.props.location.hash) {
-            var hash = this.props.location.hash.slice(1);
-
-            if (document.getElementsByName(hash).length > 0) {
-                document.getElementsByName(hash)[0].scrollIntoView();
-            }
-        }
-    }
-
     render() {
         document.title = this.state.name;
         return (

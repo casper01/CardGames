@@ -31,6 +31,23 @@ class Content extends React.Component {
             </Switch>
         );
     }
+
+    componentDidUpdate(prevProps, prevState) {
+        this.scrollToTopOrToAnchor();
+    }
+
+    scrollToTopOrToAnchor() {
+        document.body.scrollIntoView();
+
+        var hash = window.location.hash;
+        if (hash) {
+            hash = hash.slice(1);   // remove first '#'
+            var anchors = document.getElementsByName(hash);
+            if (anchors.length > 0) {
+                anchors[0].scrollIntoView();
+            }
+        }
+    }
 }
 
 export default Content;
