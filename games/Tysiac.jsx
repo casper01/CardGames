@@ -109,20 +109,18 @@ export default class Tysiac extends React.Component {
                         Zasady rozgrywki i zapisu bez zmian.
                     </p>
                     <h2 className="content-subhead">Wariant tysiąca licytowanego</h2>
-                    <p>
-                        <ul>
-                            <li>
-                                Można wprowadzić wariant licytacji "w ciemno". W tym wariancie gracz może, jeśli chce, brać udział w licytacji nie oglądając własnych kart. Gracz ma prawo obejrzeć własne karty w każdym momencie licytacji - wówczas licytacja przestaje być licytacją "w ciemno". <br />
-                                Jeśli gracz wygrał licytację w ciemno, nie okazuje kart talonu współgrającym, zapis zaś za rozgrywkę, zarówno przy wygranej, jak i przegranej zostaje podwojony dla wszystkich graczy.
-                            </li>
-                            <li>
-                                Po przekroczeniu przez któregoś z graczy 800 punktów następne punkty dodaje mu się tylko w przypadku wygrania przez niego licytacji i ugrania zadeklarowanej liczby punktów.
-                            </li>
-                            <li>
-                                Gracz, który wygrał licytację i uważa, iż nie uda mu się ugrać zadeklarowanej liczby punktów, może przed rozpoczęciem rozgrywki przerwać grę (dając tzw. "bombę"). Może w ciągu gry zrobić tak dowolną liczbę razy, lecz tylko za pierwszym razem nie odpisuje mu się zadeklarowanej liczby punktów. Reszta graczy w takim przypadku liczbę wszystkich punktów w kartach (tzn. 120pkt) dzielą między siebie (3 graczy - po 60pkt każdy; 4 graczy - po 40pkt każdy); jedynie przy dwóch graczach ten drugi otrzymuje 60pkt. Można oczywiście zapisywać po 60pkt bez względu na liczbę graczy.
-                            </li>
-                        </ul>
-                    </p>
+                    <ul>
+                        <li>
+                            Można wprowadzić wariant licytacji "w ciemno". W tym wariancie gracz może, jeśli chce, brać udział w licytacji nie oglądając własnych kart. Gracz ma prawo obejrzeć własne karty w każdym momencie licytacji - wówczas licytacja przestaje być licytacją "w ciemno". <br />
+                            Jeśli gracz wygrał licytację w ciemno, nie okazuje kart talonu współgrającym, zapis zaś za rozgrywkę, zarówno przy wygranej, jak i przegranej zostaje podwojony dla wszystkich graczy.
+                        </li>
+                        <li>
+                            Po przekroczeniu przez któregoś z graczy 800 punktów następne punkty dodaje mu się tylko w przypadku wygrania przez niego licytacji i ugrania zadeklarowanej liczby punktów.
+                        </li>
+                        <li>
+                            Gracz, który wygrał licytację i uważa, iż nie uda mu się ugrać zadeklarowanej liczby punktów, może przed rozpoczęciem rozgrywki przerwać grę (dając tzw. "bombę"). Może w ciągu gry zrobić tak dowolną liczbę razy, lecz tylko za pierwszym razem nie odpisuje mu się zadeklarowanej liczby punktów. Reszta graczy w takim przypadku liczbę wszystkich punktów w kartach (tzn. 120pkt) dzielą między siebie (3 graczy - po 60pkt każdy; 4 graczy - po 40pkt każdy); jedynie przy dwóch graczach ten drugi otrzymuje 60pkt. Można oczywiście zapisywać po 60pkt bez względu na liczbę graczy.
+                        </li>
+                    </ul>
                 </div>
             </div>
         );

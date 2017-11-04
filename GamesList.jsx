@@ -18,6 +18,9 @@ import A66Obierany from './games/A66Obierany.jsx';
 import Atutowiec from './games/Atutowiec.jsx';
 import Bezik from './games/Bezik.jsx';
 import Brydz from './games/Brydz.jsx';
+import Booby from './games/Booby.jsx';
+import BrydzDwuosobowy from './games/BrydzDwuosobowy.jsx';
+import ChinskiBrydz from './games/ChinskiBrydz.jsx';
 
 
 class GamesList extends React.Component {
@@ -36,8 +39,11 @@ class GamesList extends React.Component {
                 new A66Obierany(),
                 new Atutowiec(),
                 new Bezik(),
+                new Booby(),
                 new Brydz(),
+                new BrydzDwuosobowy(),
                 new BlackJack(),
+                new ChinskiBrydz(),
                 new Machana(),
                 new SzescdziesiatSzesc(),
                 new TrzydziesciJeden(),

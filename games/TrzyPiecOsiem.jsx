@@ -6,6 +6,6 @@ export default class TrzyPiecOsiem extends A358 {
     constructor(props) {
         super(props);
         this.state.name2 = this.state.name;
-        this.state.name = "Trzy Pięć Osiem";
+        this.state.name = 'Trzy Pięć Osiem';
     }
 }

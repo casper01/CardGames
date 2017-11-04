@@ -50,7 +50,7 @@ export default class Bezik extends React.Component {
                         Po rozdaniu kart i ewentualnym zapisaniu punktów za "carte blanche" rozpoczyna się rozgrywka, polegająca na zgrywaniu kolejno kart (z ręki lub - z zadeklarowanych i wyłożonych układów - ze stołu).
                     </p>
                     <p>
-                        Pierwszy wychodzi przeciwnik rozdającego.<vr />
+                        Pierwszy wychodzi przeciwnik rozdającego.<br />
                         Nie ma obowiązku ani dorzucania do koloru, ani przebijania starszą kartą.
                     </p>
                     <p>
@@ -87,8 +87,8 @@ export default class Bezik extends React.Component {
                     </ul>
 
                     <h2 className="content-subhead">Premie punktowe</h2>
-                    <p>
-                        <table class="pure-table pure-table-horizontal">
+                    <table className="pure-table pure-table-horizontal">
+                        <tbody>
                             <tr>
                                 <td>za mariaż królewski (K i D atutową)</td>
                                 <td>- 40</td>
@@ -170,8 +170,8 @@ export default class Bezik extends React.Component {
                             <tr>
                                 <td>rubikon wynosi</td><td>- 3000</td>
                             </tr>
-                        </table>
-                    </p>
+                        </tbody>
+                    </table>
                     <p>
                         Gdy gracze wyczerpali stos (uzupełnili kary w ręku ostatnimi dwiema kartami ze stosu), zmieniają się zasady zgłaszania układów i rozgrywki w następujący sposób:
                     </p>

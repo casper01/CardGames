@@ -59,27 +59,29 @@ export default class Atutowiec extends React.Component {
                             Rozegrana 28 kartami (od asów do ósemek). Rozdawał gracz B.<br />
                             Gracz B jako swoje kolory nominuje kiery i kara, a jako kolor atutowy kiery.<br />
                             Gracz A nominuje więc piki i trefle, a jako kolor atutowy piki.<br />
-                            W szesnastu pierwszych kartach odkrytych dla gracza B znajdują się A <span class="heart"></span>, D <span class="heart"></span>, W <span class="heart"></span> i 9 <span class="heart"></span> oraz A <span class="diamond"></span> i W <span class="diamond"></span><br />
+                            W szesnastu pierwszych kartach odkrytych dla gracza B znajdują się A <span className="heart"></span>, D <span className="heart"></span>, W <span className="heart"></span> i 9 <span className="heart"></span> oraz A <span className="diamond"></span> i W <span className="diamond"></span><br />
                             Po dokonaniu podziału kart gracze mają na ręku:<br />
-                            <table class="pure-table pure-table-horizontal">
-                                <tr>
-                                    <td>Gracz B:</td>
-                                    <td>
-                                        K <span class="spade"></span>, 10 <span class="spade"></span> i 8 <span class="spade"></span><br />
-                                        A <span class="heart"></span>, D <span class="heart"></span>, W <span class="heart"></span> i 9 <span class="heart"></span><br />
-                                        A <span class="diamond"></span> i W <span class="diamond"></span><br />
-                                        K <span class="club"></span>, D <span class="club"></span>, 10 <span class="club"></span>, 9 <span class="club"></span> i 8 <span class="club"></span><br />
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Gracz A:</td>
-                                    <td>
-                                        A <span class="spade"></span>, D <span class="spade"></span>, W <span class="spade"></span> i 9 <span class="spade"></span><br />
-                                        K <span class="heart"></span>, 10 <span class="heart"></span>, 8 <span class="heart"></span><br />
-                                        K <span class="diamond"></span>, D <span class="diamond"></span>, 10 <span class="diamond"></span>, 9 <span class="diamond"></span> i 8 <span class="diamond"></span><br />
-                                        A <span class="club"></span> i W <span class="club"></span><br />
-                                    </td>
-                                </tr>
+                            <table className="pure-table pure-table-horizontal">
+                                <tbody>
+                                    <tr>
+                                        <td>Gracz B:</td>
+                                        <td>
+                                            K <span className="spade"></span>, 10 <span className="spade"></span> i 8 <span className="spade"></span><br />
+                                            A <span className="heart"></span>, D <span className="heart"></span>, W <span className="heart"></span> i 9 <span className="heart"></span><br />
+                                            A <span className="diamond"></span> i W <span className="diamond"></span><br />
+                                            K <span className="club"></span>, D <span className="club"></span>, 10 <span className="club"></span>, 9 <span className="club"></span> i 8 <span className="club"></span><br />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gracz A:</td>
+                                        <td>
+                                            A <span className="spade"></span>, D <span className="spade"></span>, W <span className="spade"></span> i 9 <span className="spade"></span><br />
+                                            K <span className="heart"></span>, 10 <span className="heart"></span>, 8 <span className="heart"></span><br />
+                                            K <span className="diamond"></span>, D <span className="diamond"></span>, 10 <span className="diamond"></span>, 9 <span className="diamond"></span> i 8 <span className="diamond"></span><br />
+                                            A <span className="club"></span> i W <span className="club"></span><br />
+                                        </td>
+                                    </tr>
+                                </tbody>
                             </table>
                             <p>
                                 Gracz A wychodzi w 8 <span className="diamond"></span>, B bije W <span className="diamond"></span>, wychodzi w 8 <span className="club"></span>, A bije W <span className="club"></span>, wychodzi w 10 <span className="heart"></span> - B decyduje się wziąć karty ze stołu. A wychodzi w 9 <span className="diamond"></span>, B bije W <span className="diamond"></span> i wychodzi w 8 <span className="club"></span>. A bije A <span className="club"></span> i wychodzi w 10 <span className="diamond"></span>. B bije A <span className="diamond"></span> i wychodzi w 8 <span className="spade"></span>. A bije 9 <span className="spade"></span> i wychodzi w D <span className="diamond"></span>. B bije 9 <span className="heart"></span> i wychodzi w 10 <span className="spade"></span> - tym razem A decyduje się zabrać wszystkie karty.

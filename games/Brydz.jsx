@@ -143,9 +143,10 @@ export default class Brydz extends React.Component {
                     <p>
                         Po zakończeniu robra (osiągnięciu drugiej dogranej przez jedną ze stron) następuje rozliczenie. Polega ono na zsumowaniu wszystkich zapisów każdej strony (zarówno nad, jak i pod kreską). Różnica tych sum podzielona przez sto (z zaokrągleniem do całości) jest ilością punktów wygranych lub przegranych w danym robrze. Każdy z partnerów wygrywa daną ilość punktów od jednego z kontrpartnerów.
                     </p>
-                    <p>
-                        <strong>Zapis brydżowy</strong>
-                        <table className="pure-table pure-table-horizontal">
+
+                    <strong>Zapis brydżowy</strong>
+                    <table className="pure-table pure-table-horizontal">
+                        <tbody>
                             <tr className="pure-table-odd">
                                 <td>
                                     Zapis pod kreską, tylko za lewy zapowiedziane wygranym kontraktem.
@@ -183,14 +184,14 @@ export default class Brydz extends React.Component {
                                 <td>30</td>
                                 <td>60</td>
                             </tr>
-                        </table>
-                    </p>
+                        </tbody>
+                    </table>
                     <p>
                         Na zrobienie pierwszej wygranej (partii) trzeba 100 punktów.<br />
                         Na zrobienie drugiej dogranej (robra) trzeba 100 punktów.
                     </p>
-                    <p>
-                        <table className="pure-table pure-table-horizontal">
+                    <table className="pure-table pure-table-horizontal">
+                        <tbody>
                             <tr className="pure-table-odd">
                                 <td>Zapis nad kreską</td>
                                 <td>Bez kontry</td>
@@ -232,13 +233,13 @@ export default class Brydz extends React.Component {
                                 <td>100</td>
                                 <td>300</td>
                             </tr>
-                        </table>
-                    </p>
+                        </tbody>
+                    </table>
                     <p>
                         Przy powyższej punktacji w zapisie pod i nad kreską rekontra podwaja zapis z kontrą.
                     </p>
-                    <p>
-                        <table className="pure-table pure-table-horizontal">
+                    <table className="pure-table pure-table-horizontal">
+                        <tbody>
                             <tr className="pure-table-odd">
                                 <td>Zapis nad kreską (nie podwajany przez kontrę ani rekontrę)</td>
                                 <td></td>
@@ -288,8 +289,8 @@ export default class Brydz extends React.Component {
                                 <td>premia dla posiadacza pięciu honorów atutowych (korony) lub czterech asów przy grze bezatutowej</td>
                                 <td>150</td>
                             </tr>
-                        </table>
-                    </p>
+                        </tbody>
+                    </table>
                 </div>
 
                 <div className="content">
@@ -334,31 +335,33 @@ export default class Brydz extends React.Component {
                             Grają A, B i C. Rozdawał C. W wyniku rozdania pierwszą kartą dziadka, zakrytą, jest A <span className="heart"></span>, trzej gracze zaś mają w ręku następujące karty:
 
                             <table className="pure-table">
-                                <tr className="pure-table-odd">
-                                    <td>Gracz A</td>
-                                    <td>Gracz B</td>
-                                    <td>Gracz C</td>
-                                </tr>
-                                <tr>
-                                    <td>Piki: A, 7, 5, 3</td>
-                                    <td>Piki: K, D, W, 10, 8, 6, 2</td>
-                                    <td>Piki: 9, 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Kiery: 10, 5, 4, 2</td>
-                                    <td>Kiery: D, W, 3</td>
-                                    <td>Kiery: K, 9, 8, 7, 6</td>
-                                </tr>
-                                <tr>
-                                    <td>Kara: W, 9, 8, 4, 3, 2</td>
-                                    <td>Kara: K, D, 10</td>
-                                    <td>Kara: A, 7, 6, 5</td>
-                                </tr>
-                                <tr>
-                                    <td>Trefle: W, 4, 2</td>
-                                    <td>Trefle: 10, 8, 6, 3</td>
-                                    <td>Trefle: A, K, D, 9, 7, 5</td>
-                                </tr>
+                                <tbody>
+                                    <tr className="pure-table-odd">
+                                        <td>Gracz A</td>
+                                        <td>Gracz B</td>
+                                        <td>Gracz C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piki: A, 7, 5, 3</td>
+                                        <td>Piki: K, D, W, 10, 8, 6, 2</td>
+                                        <td>Piki: 9, 4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kiery: 10, 5, 4, 2</td>
+                                        <td>Kiery: D, W, 3</td>
+                                        <td>Kiery: K, 9, 8, 7, 6</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kara: W, 9, 8, 4, 3, 2</td>
+                                        <td>Kara: K, D, 10</td>
+                                        <td>Kara: A, 7, 6, 5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trefle: W, 4, 2</td>
+                                        <td>Trefle: 10, 8, 6, 3</td>
+                                        <td>Trefle: A, K, D, 9, 7, 5</td>
+                                    </tr>
+                                </tbody>
                             </table>
 
                             <p>
@@ -371,36 +374,38 @@ export default class Brydz extends React.Component {
                             </p>
 
                             <table className="pure-table">
-                                <tr className="pure-table-odd">
-                                    <td>Gracz A</td>
-                                    <td>Gracz B</td>
-                                    <td>Gracz C</td>
-                                    <td>dziadek</td>
-                                </tr>
-                                <tr>
-                                    <td>Piki: A, 7, 5, 3</td>
-                                    <td>Piki: K, D, W, 10, 8, 6, 2</td>
-                                    <td>Piki: 9, 4</td>
-                                    <td>Piki: 9, 4</td>
-                                </tr>
-                                <tr>
-                                    <td>Kiery: - </td>
-                                    <td>Kiery: D, W, 3</td>
-                                    <td>Kiery: K, 9, 8, 7, 6</td>
-                                    <td>Kiery: A, 10, 5, 4, 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Kara: W, 9, 8, 4, 3, 2</td>
-                                    <td>Kara: K, D, 10</td>
-                                    <td>Kara: A, 7</td>
-                                    <td>Kara: 6, 5</td>
-                                </tr>
-                                <tr>
-                                    <td>Trefle: W, 4, 2</td>
-                                    <td>Trefle: - </td>
-                                    <td>Trefle: A, K, D, 9, 7, 5</td>
-                                    <td>Trefle: 10, 8, 6, 3</td>
-                                </tr>
+                                <tbody>
+                                    <tr className="pure-table-odd">
+                                        <td>Gracz A</td>
+                                        <td>Gracz B</td>
+                                        <td>Gracz C</td>
+                                        <td>dziadek</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Piki: A, 7, 5, 3</td>
+                                        <td>Piki: K, D, W, 10, 8, 6, 2</td>
+                                        <td>Piki: 9, 4</td>
+                                        <td>Piki: 9, 4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kiery: - </td>
+                                        <td>Kiery: D, W, 3</td>
+                                        <td>Kiery: K, 9, 8, 7, 6</td>
+                                        <td>Kiery: A, 10, 5, 4, 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kara: W, 9, 8, 4, 3, 2</td>
+                                        <td>Kara: K, D, 10</td>
+                                        <td>Kara: A, 7</td>
+                                        <td>Kara: 6, 5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trefle: W, 4, 2</td>
+                                        <td>Trefle: - </td>
+                                        <td>Trefle: A, K, D, 9, 7, 5</td>
+                                        <td>Trefle: 10, 8, 6, 3</td>
+                                    </tr>
+                                </tbody>
                             </table>
 
                             <p>
@@ -547,8 +552,8 @@ export default class Brydz extends React.Component {
                     <p>
                         Po rozdaniu pierwszych dwudziestu kart (po dziesięć dla każdego z grających) gracze mają następujący układ kart:
                     </p>
-                    <p>
-                        <table className="pure-table">
+                    <table className="pure-table">
+                        <tbody>
                             <tr className="pure-table-odd">
                                 <td>Gracz A</td>
                                 <td>Gracz B</td>
@@ -569,8 +574,8 @@ export default class Brydz extends React.Component {
                                 <td>Trefle: D, 10, 9</td>
                                 <td>Trefle: A, 7 </td>
                             </tr>
-                        </table>
-                    </p>
+                        </tbody>
+                    </table>
                     <p>
                         Ponieważ rozdawał gracz B, licytację rozpoczyna A - od minimalnej zapowiedzi 6 punktów. B utrzymuje się w licytacji niską zapowiedzią 8 punktów - i na tym kończy się pierwsza tura licytacji; gracze otrzymują po dwie następne karty. Gracz A otrzymuje A <span className="spade"></span> i 8 <span className="club"></span>, gracz B - A <span className="diamond"></span> i 8 <span className="heart"></span>.
                     </p>

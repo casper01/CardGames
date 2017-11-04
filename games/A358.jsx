@@ -89,22 +89,20 @@ export default class A358 extends React.Component {
                     <p>
                         Jeśli w przypadku gry z kolorem atutowym, gracz u którego następuje wymiana (ten co w rozgrywce poprzedniej był na minusie) otrzyma kartę w tym kolorze do wymiany, nie musi oddawać najwyższej w tym kolorze, lecz może oddać dowolną swoją kartę w innym kolorze (ale nie musi - jak chce może oddać najwyższą kartę atutową).
                     </p>
-                    <p>
-                        <div className="example">
-                            <div className="title">Przykład:</div>
-                            <div className="content">
-                                W ostatnio rozegranym rozdaniu gracz A rozdawał karty, miał więc do wzięcia 3 lewy a wziął 4, B miał wziąć 8 a <br />
-                                Punktacja z tej rozgrywki wygląda następująco: A otrzymuje +1pkt, B +1pkt, C -2pkt.<br />
-                                W następnej rozgrywce rozdaje B. A musi wziąć 5 lew, B - 3, a C - 8 lew.<br />
-                                Ponieważ gracz C uzyskał w poprzedniej rozgrywce -2pkt, u niego pozostali gracze wymieniają karty.<br />
-                                Ponieważ gracze A i B uzyskali po jednym punkcie, mogą wymienić u C tylko po jednej karcie.<br />
-                                Przed wymianą C wybrał jako kolor atutowy karo.<br />
-                                Pierwszy wymienia karty gracz A, ponieważ ma więcej w tej rozgrywce lew do zdobycia (5) od B (3).<br />
-                                Gracz A wymienia 4 <span className="heart"></span>, gracz C musi mu więc oddać kartę najwyższą z posiadanych w tym samym kolorze (np. As <span className="heart"></span>).<br />
-                                Od gracza B otrzymuje 6 <span className="diamond"></span>, ale ponieważ karo jest kolorem atutowym, gracz C może mu oddać dowolną swoją kartę (np. 2 <span className="spade"></span>).
-                            </div>
+                    <div className="example">
+                        <div className="title">Przykład:</div>
+                        <div className="content">
+                            W ostatnio rozegranym rozdaniu gracz A rozdawał karty, miał więc do wzięcia 3 lewy a wziął 4, B miał wziąć 8 a <br />
+                            Punktacja z tej rozgrywki wygląda następująco: A otrzymuje +1pkt, B +1pkt, C -2pkt.<br />
+                            W następnej rozgrywce rozdaje B. A musi wziąć 5 lew, B - 3, a C - 8 lew.<br />
+                            Ponieważ gracz C uzyskał w poprzedniej rozgrywce -2pkt, u niego pozostali gracze wymieniają karty.<br />
+                            Ponieważ gracze A i B uzyskali po jednym punkcie, mogą wymienić u C tylko po jednej karcie.<br />
+                            Przed wymianą C wybrał jako kolor atutowy karo.<br />
+                            Pierwszy wymienia karty gracz A, ponieważ ma więcej w tej rozgrywce lew do zdobycia (5) od B (3).<br />
+                            Gracz A wymienia 4 <span className="heart"></span>, gracz C musi mu więc oddać kartę najwyższą z posiadanych w tym samym kolorze (np. As <span className="heart"></span>).<br />
+                            Od gracza B otrzymuje 6 <span className="diamond"></span>, ale ponieważ karo jest kolorem atutowym, gracz C może mu oddać dowolną swoją kartę (np. 2 <span className="spade"></span>).
                         </div>
-                    </p>
+                    </div>
                     <p><strong>
                         Nie wolno wymieniać kart w przypadku gry "bez atu", bądź "bez lew".
                     </strong></p>

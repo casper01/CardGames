@@ -54,52 +54,54 @@ export default class TrzyTrzynascie extends React.Component {
                     <p>
                         W każdej rundzie jest "dzika karta". Jest to karta o wartości równej liczbie rozdanych kart. "Dzika karta" może być używana w miejsce innej karty przy tworzeniu grupy lub sekwencji. Możesz także tworzyć komplet składający się tylko z "dzikich kart". Poniżej znajduje się lista "dzikich kart" każdej rundy:
                     </p>
-                    
-                    <table class="pure-table pure-table-horizontal">
-                        <tr>
-                            <td>Runda 1:</td>
-                            <td>Trójki</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 2:</td>
-                            <td>Czwórki</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 3:</td>
-                            <td>Piątki</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 4:</td>
-                            <td>Szóstki</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 5:</td>
-                            <td>Siódemki</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 6:</td>
-                            <td>Ósemki</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 7:</td>
-                            <td>Dziewiątki</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 8:</td>
-                            <td>Dziesiątki</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 9:</td>
-                            <td>Walety</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 10:</td>
-                            <td>Damy</td>
-                        </tr>
-                        <tr>
-                            <td>Runda 11:</td>
-                            <td>Króle</td>
-                        </tr>
+
+                    <table className="pure-table pure-table-horizontal">
+                        <tbody>
+                            <tr>
+                                <td>Runda 1:</td>
+                                <td>Trójki</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 2:</td>
+                                <td>Czwórki</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 3:</td>
+                                <td>Piątki</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 4:</td>
+                                <td>Szóstki</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 5:</td>
+                                <td>Siódemki</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 6:</td>
+                                <td>Ósemki</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 7:</td>
+                                <td>Dziewiątki</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 8:</td>
+                                <td>Dziesiątki</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 9:</td>
+                                <td>Walety</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 10:</td>
+                                <td>Damy</td>
+                            </tr>
+                            <tr>
+                                <td>Runda 11:</td>
+                                <td>Króle</td>
+                            </tr>
+                        </tbody>
                     </table>
 
                     <h2 className="content-subhead">Gra</h2>
@@ -110,59 +112,61 @@ export default class TrzyTrzynascie extends React.Component {
 
                     <h2 className="content-subhead">Punktacja</h2>
                     <p>Na koniec rundy reszta graczy dokłada wszystkie możliwe karty do kompletów. Karty, które zostaną danemu graczowi na ręce są liczone jako punkty karne wg poniższej zasady:</p>
-                    <table class="pure-table pure-table-horizontal">
-                        <tr>
-                            <td>As</td>
-                            <td>1pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Dwójka</td>
-                            <td>2pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Trójka</td>
-                            <td>3pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Czwórka</td>
-                            <td>4pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Piątka</td>
-                            <td>5pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Szóstka</td>
-                            <td>6pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Siódemka</td>
-                            <td>7pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Ósemka</td>
-                            <td>8pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Dziewiątka</td>
-                            <td>9pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Dziesiątka</td>
-                            <td>10pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Walet</td>
-                            <td>10pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Dama</td>
-                            <td>10pkt</td>
-                        </tr>
-                        <tr>
-                            <td>Król</td>
-                            <td>10pkt</td>
-                        </tr>
+                    <table className="pure-table pure-table-horizontal">
+                        <tbody>
+                            <tr>
+                                <td>As</td>
+                                <td>1pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Dwójka</td>
+                                <td>2pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Trójka</td>
+                                <td>3pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Czwórka</td>
+                                <td>4pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Piątka</td>
+                                <td>5pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Szóstka</td>
+                                <td>6pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Siódemka</td>
+                                <td>7pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Ósemka</td>
+                                <td>8pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Dziewiątka</td>
+                                <td>9pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Dziesiątka</td>
+                                <td>10pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Walet</td>
+                                <td>10pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Dama</td>
+                                <td>10pkt</td>
+                            </tr>
+                            <tr>
+                                <td>Król</td>
+                                <td>10pkt</td>
+                            </tr>
+                        </tbody>
                     </table>
                     <p>Punkty są sumowane ze wszystkich rund. Wygrywa ten, kto w ostatniej rundzie będzie miał najmniejszą liczbę punktów.</p>
                 </div>
