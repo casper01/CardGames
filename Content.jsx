@@ -10,6 +10,7 @@ import A358 from './games/A358.jsx';
 import SzescdziesiatSzesc from './games/SzescdziesiatSzesc.jsx';
 import Atutowiec from './games/Atutowiec.jsx';
 import Bezik from './games/Bezik.jsx';
+import Brydz from './games/Brydz.jsx';
 
 
 class Content extends React.Component {
@@ -26,6 +27,7 @@ class Content extends React.Component {
                 <Route path={new SzescdziesiatSzesc().state.url} component={SzescdziesiatSzesc} />
                 <Route path={new Atutowiec().state.url} component={Atutowiec} />
                 <Route path={new Bezik().state.url} component={Bezik} />
+                <Route path={new Brydz().state.url} component={Brydz} />
             </Switch>
         );
     }
