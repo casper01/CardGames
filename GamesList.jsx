@@ -29,6 +29,7 @@ import Combo from './games/Combo.jsx';
 import Samba from './games/Samba.jsx';
 import CzyMozna from './games/CzyMozna.jsx';
 import Cribbage from './games/Cribbage.jsx';
+import Kierki from './games/Kierki.jsx';
 
 
 class GamesList extends React.Component {
@@ -59,6 +60,7 @@ class GamesList extends React.Component {
                 new Cribbage(),
                 new CzyMozna(),
                 new Kanasta(),
+                new Kierki(),
                 new Machana(),
                 new Samba(),
                 new SzescdziesiatSzesc(),
