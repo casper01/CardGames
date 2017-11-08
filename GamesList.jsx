@@ -21,6 +21,8 @@ import Brydz from './games/Brydz.jsx';
 import Booby from './games/Booby.jsx';
 import BrydzDwuosobowy from './games/BrydzDwuosobowy.jsx';
 import ChinskiBrydz from './games/ChinskiBrydz.jsx';
+import Callabra from './games/Callabra.jsx';
+import Cassino from './games/Cassino.jsx';
 
 
 class GamesList extends React.Component {
@@ -43,6 +45,8 @@ class GamesList extends React.Component {
                 new Brydz(),
                 new BrydzDwuosobowy(),
                 new BlackJack(),
+                new Callabra(),
+                new Cassino(),
                 new ChinskiBrydz(),
                 new Machana(),
                 new SzescdziesiatSzesc(),
