@@ -165,6 +165,12 @@ class GamesList extends React.Component {
         if (game.name2) {
             desc += ' (zob. ' + game.name2 + ')';
         }
+        if (game.variantOf) {
+            desc += ' (wariant ' + game.variantOf + ')';
+        }
+        if (game.readAs) {
+            desc += ' (czyt. ' + game.readAs + ')';
+        }
         if (game.desc) {
             desc += ' - ' + game.desc;
         }
