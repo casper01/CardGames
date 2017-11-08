@@ -12,6 +12,7 @@ import Atutowiec from './games/Atutowiec.jsx';
 import Bezik from './games/Bezik.jsx';
 import Brydz from './games/Brydz.jsx';
 import Callabra from './games/Callabra.jsx';
+import Kanasta from './games/Kanasta.jsx';
 
 
 class Content extends React.Component {
@@ -30,6 +31,7 @@ class Content extends React.Component {
                 <Route path={new Bezik().state.url} component={Bezik} />
                 <Route path={new Brydz().state.url} component={Brydz} />
                 <Route path={new Callabra().state.url} component={Callabra} />
+                <Route path={new Kanasta().state.url} component={Kanasta} />
             </Switch>
         );
     }

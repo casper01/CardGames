@@ -23,6 +23,11 @@ import BrydzDwuosobowy from './games/BrydzDwuosobowy.jsx';
 import ChinskiBrydz from './games/ChinskiBrydz.jsx';
 import Callabra from './games/Callabra.jsx';
 import Cassino from './games/Cassino.jsx';
+import Kanasta from './games/Kanasta.jsx';
+import Canasta from './games/Canasta.jsx';
+import Combo from './games/Combo.jsx';
+import Samba from './games/Samba.jsx';
+import CzyMozna from './games/CzyMozna.jsx';
 
 
 class GamesList extends React.Component {
@@ -47,8 +52,13 @@ class GamesList extends React.Component {
                 new BlackJack(),
                 new Callabra(),
                 new Cassino(),
+                new Canasta(),
                 new ChinskiBrydz(),
+                new Combo(),
+                new CzyMozna(),
+                new Kanasta(),
                 new Machana(),
+                new Samba(),
                 new SzescdziesiatSzesc(),
                 new TrzydziesciJeden(),
                 new TrzyTrzynascie(),
