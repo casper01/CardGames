@@ -33,6 +33,7 @@ import Kierki from './games/Kierki.jsx';
 import CzarnaManka from './games/CzarnaManka.jsx';
 import Eleusis from './games/Eleusis.jsx';
 import Delfy from './games/Delfy.jsx';
+import Ecarte from './games/Ecarte.jsx';
 
 
 class GamesList extends React.Component {
@@ -64,6 +65,7 @@ class GamesList extends React.Component {
                 new CzarnaManka(),
                 new CzyMozna(),
                 new Delfy(),
+                new Ecarte(),
                 new Eleusis(),
                 new Kanasta(),
                 new Kierki(),
