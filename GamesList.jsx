@@ -31,6 +31,8 @@ import CzyMozna from './games/CzyMozna.jsx';
 import Cribbage from './games/Cribbage.jsx';
 import Kierki from './games/Kierki.jsx';
 import CzarnaManka from './games/CzarnaManka.jsx';
+import Eleusis from './games/Eleusis.jsx';
+import Delfy from './games/Delfy.jsx';
 
 
 class GamesList extends React.Component {
@@ -61,6 +63,8 @@ class GamesList extends React.Component {
                 new Cribbage(),
                 new CzarnaManka(),
                 new CzyMozna(),
+                new Delfy(),
+                new Eleusis(),
                 new Kanasta(),
                 new Kierki(),
                 new Machana(),

@@ -15,6 +15,7 @@ import Callabra from './games/Callabra.jsx';
 import Kanasta from './games/Kanasta.jsx';
 import Cribbage from './games/Cribbage.jsx';
 import Kierki from './games/Kierki.jsx';
+import Eleusis from './games/Eleusis.jsx';
 
 
 class Content extends React.Component {
@@ -36,6 +37,7 @@ class Content extends React.Component {
                 <Route path={new Kanasta().state.url} component={Kanasta} />
                 <Route path={new Cribbage().state.url} component={Cribbage} />
                 <Route path={new Kierki().state.url} component={Kierki} />
+                <Route path={new Eleusis().state.url} component={Eleusis} />
             </Switch>
         );
     }

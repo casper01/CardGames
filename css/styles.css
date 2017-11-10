@@ -48,3 +48,10 @@
     display: inline;
     text-decoration: underline;
 }
+
+.center-inner-container {
+    display: inline-block;
+}
+.center-outer-container {
+    text-align: center;
+}
