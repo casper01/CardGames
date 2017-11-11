@@ -40,6 +40,7 @@ import Garibaldka from './games/Garibaldka.jsx';
 import Hasenpfeffer from './games/Hasenpfeffer.jsx';
 import Hejolek from './games/Hejolek.jsx';
 import Huragan from './games/Huragan.jsx';
+import IdzNaRyby from './games/IdzNaRyby.jsx';
 
 
 class GamesList extends React.Component {
@@ -78,6 +79,7 @@ class GamesList extends React.Component {
                 new Hasenpfeffer(),
                 new Hejolek(),
                 new Huragan(),
+                new IdzNaRyby(),
                 new Kanasta(),
                 new Kierki(),
                 new Loteryjka(),

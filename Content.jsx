@@ -22,6 +22,7 @@ import Garibaldka from './games/Garibaldka.jsx';
 import Hasenpfeffer from './games/Hasenpfeffer.jsx';
 import Hejolek from './games/Hejolek.jsx';
 import Huragan from './games/Huragan.jsx';
+import IdzNaRyby from './games/IdzNaRyby.jsx';
 
 
 class Content extends React.Component {
@@ -50,6 +51,7 @@ class Content extends React.Component {
                 <Route path={new Hasenpfeffer().state.url} component={Hasenpfeffer} />
                 <Route path={new Hejolek().state.url} component={Hejolek} />
                 <Route path={new Huragan().state.url} component={Huragan} />
+                <Route path={new IdzNaRyby().state.url} component={IdzNaRyby} />
             </Switch>
         );
     }
