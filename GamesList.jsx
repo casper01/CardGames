@@ -35,6 +35,8 @@ import Eleusis from './games/Eleusis.jsx';
 import Delfy from './games/Delfy.jsx';
 import Ecarte from './games/Ecarte.jsx';
 import Fantan from './games/Fantan.jsx';
+import Loteryjka from './games/Loteryjka.jsx';
+import Garibaldka from './games/Garibaldka.jsx';
 
 
 class GamesList extends React.Component {
@@ -69,8 +71,10 @@ class GamesList extends React.Component {
                 new Ecarte(),
                 new Eleusis(),
                 new Fantan(),
+                new Garibaldka(),
                 new Kanasta(),
                 new Kierki(),
+                new Loteryjka(),
                 new Machana(),
                 new Samba(),
                 new SzescdziesiatSzesc(),

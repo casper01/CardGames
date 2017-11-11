@@ -18,6 +18,7 @@ import Kierki from './games/Kierki.jsx';
 import Eleusis from './games/Eleusis.jsx';
 import Ecarte from './games/Ecarte.jsx';
 import Fantan from './games/Fantan.jsx';
+import Garibaldka from './games/Garibaldka.jsx';
 
 
 class Content extends React.Component {
@@ -42,6 +43,7 @@ class Content extends React.Component {
                 <Route path={new Eleusis().state.url} component={Eleusis} />
                 <Route path={new Ecarte().state.url} component={Ecarte} />
                 <Route path={new Fantan().state.url} component={Fantan} />
+                <Route path={new Garibaldka().state.url} component={Garibaldka} />
             </Switch>
         );
     }
