@@ -44,6 +44,7 @@ import IdzNaRyby from './games/IdzNaRyby.jsx';
 import KierkiDominowe from './games/KierkiDominowe.jsx';
 import KierkiDzokerowe from './games/KierkiDzokerowe.jsx';
 import KierkiLicytowane from './games/KierkiLicytowane.jsx';
+import Konstrukcja from './games/Konstrukcja.jsx';
 
 
 class GamesList extends React.Component {
@@ -88,6 +89,7 @@ class GamesList extends React.Component {
                 new KierkiDominowe(),
                 new KierkiDzokerowe(),
                 new KierkiLicytowane(),
+                new Konstrukcja(),
                 new Loteryjka(),
                 new Machana(),
                 new Samba(),
