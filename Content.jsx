@@ -26,6 +26,7 @@ import IdzNaRyby from './games/IdzNaRyby.jsx';
 import Konstrukcja from './games/Konstrukcja.jsx';
 import Kuku from './games/Kuku.jsx';
 import Kwadrat from './games/Kwadrat.jsx';
+import Lampart from './games/Lampart.jsx';
 
 
 class Content extends React.Component {
@@ -58,6 +59,7 @@ class Content extends React.Component {
                 <Route path={new Konstrukcja().state.url} component={Konstrukcja} />
                 <Route path={new Kuku().state.url} component={Kuku} />
                 <Route path={new Kwadrat().state.url} component={Kwadrat} />
+                <Route path={new Lampart().state.url} component={Lampart} />
             </Switch>
         );
     }
