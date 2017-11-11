@@ -48,6 +48,7 @@ import Konstrukcja from './games/Konstrukcja.jsx';
 import Kuku from './games/Kuku.jsx';
 import Kwadrat from './games/Kwadrat.jsx';
 import Lampart from './games/Lampart.jsx';
+import Makao from './games/Makao.jsx';
 
 
 class GamesList extends React.Component {
@@ -98,6 +99,7 @@ class GamesList extends React.Component {
                 new Lampart(),
                 new Loteryjka(),
                 new Machana(),
+                new Makao(),
                 new Samba(),
                 new SzescdziesiatSzesc(),
                 new TrzydziesciJeden(),

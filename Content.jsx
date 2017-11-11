@@ -27,6 +27,7 @@ import Konstrukcja from './games/Konstrukcja.jsx';
 import Kuku from './games/Kuku.jsx';
 import Kwadrat from './games/Kwadrat.jsx';
 import Lampart from './games/Lampart.jsx';
+import Makao from './games/Makao.jsx';
 
 
 class Content extends React.Component {
@@ -60,6 +61,7 @@ class Content extends React.Component {
                 <Route path={new Kuku().state.url} component={Kuku} />
                 <Route path={new Kwadrat().state.url} component={Kwadrat} />
                 <Route path={new Lampart().state.url} component={Lampart} />
+                <Route path={new Makao().state.url} component={Makao} />
             </Switch>
         );
     }
