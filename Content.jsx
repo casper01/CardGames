@@ -19,6 +19,8 @@ import Eleusis from './games/Eleusis.jsx';
 import Ecarte from './games/Ecarte.jsx';
 import Fantan from './games/Fantan.jsx';
 import Garibaldka from './games/Garibaldka.jsx';
+import Hasenpfeffer from './games/Hasenpfeffer.jsx';
+import Hejolek from './games/Hejolek.jsx';
 
 
 class Content extends React.Component {
@@ -44,6 +46,8 @@ class Content extends React.Component {
                 <Route path={new Ecarte().state.url} component={Ecarte} />
                 <Route path={new Fantan().state.url} component={Fantan} />
                 <Route path={new Garibaldka().state.url} component={Garibaldka} />
+                <Route path={new Hasenpfeffer().state.url} component={Hasenpfeffer} />
+                <Route path={new Hejolek().state.url} component={Hejolek} />
             </Switch>
         );
     }
