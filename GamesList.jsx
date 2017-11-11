@@ -41,6 +41,9 @@ import Hasenpfeffer from './games/Hasenpfeffer.jsx';
 import Hejolek from './games/Hejolek.jsx';
 import Huragan from './games/Huragan.jsx';
 import IdzNaRyby from './games/IdzNaRyby.jsx';
+import KierkiDominowe from './games/KierkiDominowe.jsx';
+import KierkiDzokerowe from './games/KierkiDzokerowe.jsx';
+import KierkiLicytowane from './games/KierkiLicytowane.jsx';
 
 
 class GamesList extends React.Component {
@@ -82,6 +85,9 @@ class GamesList extends React.Component {
                 new IdzNaRyby(),
                 new Kanasta(),
                 new Kierki(),
+                new KierkiDominowe(),
+                new KierkiDzokerowe(),
+                new KierkiLicytowane(),
                 new Loteryjka(),
                 new Machana(),
                 new Samba(),
