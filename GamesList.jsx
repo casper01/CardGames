@@ -49,6 +49,10 @@ import Kuku from './games/Kuku.jsx';
 import Kwadrat from './games/Kwadrat.jsx';
 import Lampart from './games/Lampart.jsx';
 import Makao from './games/Makao.jsx';
+import MauMau from './games/MauMau.jsx';
+import Pony from './games/Pony.jsx';
+import Metamorfoza from './games/Metamorfoza.jsx';
+import Nullo from './games/Nullo.jsx';
 
 
 class GamesList extends React.Component {
@@ -100,6 +104,10 @@ class GamesList extends React.Component {
                 new Loteryjka(),
                 new Machana(),
                 new Makao(),
+                new MauMau(),
+                new Metamorfoza(),
+                new Nullo(),
+                new Pony(),
                 new Samba(),
                 new SzescdziesiatSzesc(),
                 new TrzydziesciJeden(),
