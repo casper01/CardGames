@@ -46,6 +46,7 @@ import KierkiDzokerowe from './games/KierkiDzokerowe.jsx';
 import KierkiLicytowane from './games/KierkiLicytowane.jsx';
 import Konstrukcja from './games/Konstrukcja.jsx';
 import Kuku from './games/Kuku.jsx';
+import Kwadrat from './games/Kwadrat.jsx';
 
 
 class GamesList extends React.Component {
@@ -92,6 +93,7 @@ class GamesList extends React.Component {
                 new KierkiLicytowane(),
                 new Konstrukcja(),
                 new Kuku(),
+                new Kwadrat(),
                 new Loteryjka(),
                 new Machana(),
                 new Samba(),
