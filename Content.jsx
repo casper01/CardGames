@@ -21,6 +21,7 @@ import Fantan from './games/Fantan.jsx';
 import Garibaldka from './games/Garibaldka.jsx';
 import Hasenpfeffer from './games/Hasenpfeffer.jsx';
 import Hejolek from './games/Hejolek.jsx';
+import Huragan from './games/Huragan.jsx';
 
 
 class Content extends React.Component {
@@ -48,6 +49,7 @@ class Content extends React.Component {
                 <Route path={new Garibaldka().state.url} component={Garibaldka} />
                 <Route path={new Hasenpfeffer().state.url} component={Hasenpfeffer} />
                 <Route path={new Hejolek().state.url} component={Hejolek} />
+                <Route path={new Huragan().state.url} component={Huragan} />
             </Switch>
         );
     }
