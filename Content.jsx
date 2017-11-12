@@ -29,6 +29,7 @@ import Kwadrat from './games/Kwadrat.jsx';
 import Lampart from './games/Lampart.jsx';
 import Makao from './games/Makao.jsx';
 import MauMau from './games/MauMau.jsx';
+import Ogorek from './games/Ogorek.jsx';
 
 
 class Content extends React.Component {
@@ -64,6 +65,7 @@ class Content extends React.Component {
                 <Route path={new Lampart().state.url} component={Lampart} />
                 <Route path={new Makao().state.url} component={Makao} />
                 <Route path={new MauMau().state.url} component={MauMau} />
+                <Route path={new Ogorek().state.url} component={Ogorek} />
             </Switch>
         );
     }

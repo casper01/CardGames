@@ -53,6 +53,7 @@ import MauMau from './games/MauMau.jsx';
 import Pony from './games/Pony.jsx';
 import Metamorfoza from './games/Metamorfoza.jsx';
 import Nullo from './games/Nullo.jsx';
+import Ogorek from './games/Ogorek.jsx';
 
 
 class GamesList extends React.Component {
@@ -107,6 +108,7 @@ class GamesList extends React.Component {
                 new MauMau(),
                 new Metamorfoza(),
                 new Nullo(),
+                new Ogorek(),
                 new Pony(),
                 new Samba(),
                 new SzescdziesiatSzesc(),
