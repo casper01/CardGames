@@ -54,6 +54,8 @@ import Pony from './games/Pony.jsx';
 import Metamorfoza from './games/Metamorfoza.jsx';
 import Nullo from './games/Nullo.jsx';
 import Ogorek from './games/Ogorek.jsx';
+import Omnibus from './games/Omnibus.jsx';
+import Oszust from './games/Oszust.jsx';
 
 
 class GamesList extends React.Component {
@@ -109,6 +111,8 @@ class GamesList extends React.Component {
                 new Metamorfoza(),
                 new Nullo(),
                 new Ogorek(),
+                new Omnibus(),
+                new Oszust(),
                 new Pony(),
                 new Samba(),
                 new SzescdziesiatSzesc(),
