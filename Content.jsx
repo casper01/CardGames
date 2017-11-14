@@ -31,6 +31,8 @@ import Makao from './games/Makao.jsx';
 import MauMau from './games/MauMau.jsx';
 import Ogorek from './games/Ogorek.jsx';
 import Oszust from './games/Oszust.jsx';
+import Pan from './games/Pan.jsx';
+import Pikieta from './games/Pikieta.jsx';
 
 
 class Content extends React.Component {
@@ -68,6 +70,8 @@ class Content extends React.Component {
                 <Route path={new MauMau().state.url} component={MauMau} />
                 <Route path={new Ogorek().state.url} component={Ogorek} />
                 <Route path={new Oszust().state.url} component={Oszust} />
+                <Route path={new Pan().state.url} component={Pan} />
+                <Route path={new Pikieta().state.url} component={Pikieta} />
             </Switch>
         );
     }
