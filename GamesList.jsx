@@ -63,6 +63,7 @@ import Poker from './games/Poker.jsx';
 import PokerRownolegly from './games/PokerRownolegly.jsx';
 import Polignac from './games/Polignac.jsx';
 import Wist from './games/Wist.jsx';
+import Preferans from './games/Preferans.jsx';
 
 
 class GamesList extends React.Component {
@@ -127,6 +128,7 @@ class GamesList extends React.Component {
                 new PokerRownolegly(),
                 new Polignac(),
                 new Pony(),
+                new Preferans(),
                 new Samba(),
                 new SzescdziesiatSzesc(),
                 new TrzydziesciJeden(),
