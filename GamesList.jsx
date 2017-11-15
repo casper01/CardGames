@@ -68,6 +68,7 @@ import RemikGin from './games/RemikGin.jsx';
 import Remik500 from './games/Remik500.jsx';
 import RemikOklahoma from './games/RemikOklahoma.jsx';
 import RemiBridz from './games/RemiBridz.jsx';
+import Skat from './games/Skat.jsx';
 
 
 class GamesList extends React.Component {
@@ -138,6 +139,7 @@ class GamesList extends React.Component {
                 new RemikOklahoma(),
                 new RemiBridz(),
                 new Samba(),
+                new Skat(),
                 new SzescdziesiatSzesc(),
                 new TrzydziesciJeden(),
                 new TrzyTrzynascie(),
