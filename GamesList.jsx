@@ -61,6 +61,7 @@ import Pikieta from './games/Pikieta.jsx';
 import Planowanie from './games/Planowanie.jsx';
 import Poker from './games/Poker.jsx';
 import PokerRownolegly from './games/PokerRownolegly.jsx';
+import Polignac from './games/Polignac.jsx';
 
 
 class GamesList extends React.Component {
@@ -123,6 +124,7 @@ class GamesList extends React.Component {
                 new Planowanie(),
                 new Poker(),
                 new PokerRownolegly(),
+                new Polignac(),
                 new Pony(),
                 new Samba(),
                 new SzescdziesiatSzesc(),
