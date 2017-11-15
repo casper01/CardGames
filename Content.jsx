@@ -43,6 +43,8 @@ import Swinie from './games/Swinie.jsx';
 import Tuzatu from './games/Tuzatu.jsx';
 import TysiacLicytowany from './games/TysiacLicytowany.jsx';
 import Wybory from './games/Wybory.jsx';
+import Wojna from './games/Wojna.jsx';
+import Wyscig from './games/Wyscig.jsx';
 
 
 class Content extends React.Component {
@@ -92,6 +94,8 @@ class Content extends React.Component {
                 <Route path={new Tuzatu().state.url} component={Tuzatu} />
                 <Route path={new TysiacLicytowany().state.url} component={TysiacLicytowany} />
                 <Route path={new Wybory().state.url} component={Wybory} />
+                <Route path={new Wojna().state.url} component={Wojna} />
+                <Route path={new Wyscig().state.url} component={Wyscig} />
             </Switch>
         );
     }

@@ -77,6 +77,8 @@ import Tuzatu from './games/Tuzatu.jsx';
 import TysiacLicytowany from './games/TysiacLicytowany.jsx';
 import Wybory from './games/Wybory.jsx';
 import Variety from './games/Variety.jsx';
+import Wojna from './games/Wojna.jsx';
+import Wyscig from './games/Wyscig.jsx';
 
 
 class GamesList extends React.Component {
@@ -161,7 +163,9 @@ class GamesList extends React.Component {
                 new TysiacLicytowany(),
                 new Variety(),
                 new Wist(),
-                new Wybory()
+                new Wojna(),
+                new Wybory(),
+                new Wyscig()
             ]
         };
 
@@ -176,6 +180,9 @@ class GamesList extends React.Component {
         var index = name[0];
         if (!isNaN(parseInt(index))) {
             index = '#';
+        }
+        else if (index == 'Ś') {
+            index = 'S';
         }
         return index;
     }
@@ -196,8 +203,9 @@ class GamesList extends React.Component {
     getDatasetsDividedByIndices() {
         var indices = this.getOrderedUniqueIndices();
         var data = this.state.data;
+        var context = this;
         data.sort(function (a, b) {
-            return a.state.name > b.state.name;
+            return context.getNameIndex(a.state.name) + a.state.name > context.getNameIndex(b.state.name) + b.state.name;
         });
 
         var indicesInd = 0;
