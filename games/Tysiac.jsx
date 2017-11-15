@@ -9,7 +9,7 @@ export default class Tysiac extends React.Component {
             desc: 'gra dla 2 [3 i 4] osób',
             url: '/tysiac',
             players: [2, 3, 4],
-            cards: "Mała talia kart (24 karty)"
+            cards: 'Mała talia kart (24 karty)'
         }
     }
 
@@ -64,7 +64,8 @@ export default class Tysiac extends React.Component {
                     </p>
                 </div>
                 <div className="content">
-                    <h1 name="tysiac-licytowany" className="content-subhead main-header">Tysiąc licytowany</h1>
+                    <a name="licytowany"></a>
+                    <h1 className="content-subhead main-header">Tysiąc licytowany</h1>
                     <p>
                         Wariant gry.<br />
                         Każdy z graczy otrzymuje po dziesięć kart, pozostałe cztery karty leżą na stole w dwu zakrytych talonach po dwie karty w każdym z nich.

@@ -74,6 +74,7 @@ import Szlem from './games/Szlem.jsx';
 import Szwabacha from './games/Szwabacha.jsx';
 import Swinie from './games/Swinie.jsx';
 import Tuzatu from './games/Tuzatu.jsx';
+import TysiacLicytowany from './games/TysiacLicytowany.jsx';
 
 
 class GamesList extends React.Component {
@@ -155,6 +156,7 @@ class GamesList extends React.Component {
                 new TrzyPiecOsiem(),
                 new Tuzatu(),
                 new Tysiac(),
+                new TysiacLicytowany(),
                 new Wist()
             ]
         };
