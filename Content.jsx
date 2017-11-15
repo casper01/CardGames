@@ -39,6 +39,7 @@ import Wist from './games/Wist.jsx';
 import Preferans from './games/Preferans.jsx';
 import RemikGin from './games/RemikGin.jsx';
 import Skat from './games/Skat.jsx';
+import Swinie from './games/Swinie.jsx';
 
 
 class Content extends React.Component {
@@ -84,6 +85,7 @@ class Content extends React.Component {
                 <Route path={new Preferans().state.url} component={Preferans} />
                 <Route path={new RemikGin().state.url} component={RemikGin} />
                 <Route path={new Skat().state.url} component={Skat} />
+                <Route path={new Swinie().state.url} component={Swinie} />
             </Switch>
         );
     }
