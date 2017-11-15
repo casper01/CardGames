@@ -62,6 +62,7 @@ import Planowanie from './games/Planowanie.jsx';
 import Poker from './games/Poker.jsx';
 import PokerRownolegly from './games/PokerRownolegly.jsx';
 import Polignac from './games/Polignac.jsx';
+import Wist from './games/Wist.jsx';
 
 
 class GamesList extends React.Component {
@@ -131,7 +132,8 @@ class GamesList extends React.Component {
                 new TrzydziesciJeden(),
                 new TrzyTrzynascie(),
                 new TrzyPiecOsiem(),
-                new Tysiac()
+                new Tysiac(),
+                new Wist()
             ]
         };
 
