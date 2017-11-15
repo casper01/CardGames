@@ -40,6 +40,7 @@ import Preferans from './games/Preferans.jsx';
 import RemikGin from './games/RemikGin.jsx';
 import Skat from './games/Skat.jsx';
 import Swinie from './games/Swinie.jsx';
+import Tuzatu from './games/Tuzatu.jsx';
 
 
 class Content extends React.Component {
@@ -86,6 +87,7 @@ class Content extends React.Component {
                 <Route path={new RemikGin().state.url} component={RemikGin} />
                 <Route path={new Skat().state.url} component={Skat} />
                 <Route path={new Swinie().state.url} component={Swinie} />
+                <Route path={new Tuzatu().state.url} component={Tuzatu} />
             </Switch>
         );
     }

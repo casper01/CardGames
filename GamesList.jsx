@@ -73,6 +73,7 @@ import Slobberhannes from './games/Slobberhannes.jsx';
 import Szlem from './games/Szlem.jsx';
 import Szwabacha from './games/Szwabacha.jsx';
 import Swinie from './games/Swinie.jsx';
+import Tuzatu from './games/Tuzatu.jsx';
 
 
 class GamesList extends React.Component {
@@ -152,6 +153,7 @@ class GamesList extends React.Component {
                 new TrzydziesciJeden(),
                 new TrzyTrzynascie(),
                 new TrzyPiecOsiem(),
+                new Tuzatu(),
                 new Tysiac(),
                 new Wist()
             ]
