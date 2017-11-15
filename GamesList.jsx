@@ -59,6 +59,7 @@ import Oszust from './games/Oszust.jsx';
 import Pan from './games/Pan.jsx';
 import Pikieta from './games/Pikieta.jsx';
 import Planowanie from './games/Planowanie.jsx';
+import Poker from './games/Poker.jsx';
 
 
 class GamesList extends React.Component {
@@ -119,6 +120,7 @@ class GamesList extends React.Component {
                 new Pan(),
                 new Pikieta(),
                 new Planowanie(),
+                new Poker(),
                 new Pony(),
                 new Samba(),
                 new SzescdziesiatSzesc(),

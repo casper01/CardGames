@@ -34,6 +34,7 @@ import Oszust from './games/Oszust.jsx';
 import Pan from './games/Pan.jsx';
 import Pikieta from './games/Pikieta.jsx';
 import Planowanie from './games/Planowanie.jsx';
+import Poker from './games/Poker.jsx';
 
 
 class Content extends React.Component {
@@ -74,6 +75,7 @@ class Content extends React.Component {
                 <Route path={new Pan().state.url} component={Pan} />
                 <Route path={new Pikieta().state.url} component={Pikieta} />
                 <Route path={new Planowanie().state.url} component={Planowanie} />
+                <Route path={new Poker().state.url} component={Poker} />
             </Switch>
         );
     }
