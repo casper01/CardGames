@@ -86,6 +86,7 @@ export default class SzescdziesiatSzesc extends React.Component {
                 </div>
 
                 <div className="content">
+                    <a name="szwabacha"></a>
                     <h1 className="content-subhead main-header">Szwabacha</h1>
                     <div className="info">
                         Wariant gry (regionalny niemiecki).

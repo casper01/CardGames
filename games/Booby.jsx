@@ -9,5 +9,6 @@ export default class Booby extends Brydz {
         this.state.variantOf = 'Brydża';
         this.state.url += '#booby';
         this.state.desc = 'gra dla 3 osób';
+        this.state.players = [3];
     }
 }
