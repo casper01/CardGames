@@ -75,6 +75,8 @@ import Szwabacha from './games/Szwabacha.jsx';
 import Swinie from './games/Swinie.jsx';
 import Tuzatu from './games/Tuzatu.jsx';
 import TysiacLicytowany from './games/TysiacLicytowany.jsx';
+import Wybory from './games/Wybory.jsx';
+import Variety from './games/Variety.jsx';
 
 
 class GamesList extends React.Component {
@@ -157,7 +159,9 @@ class GamesList extends React.Component {
                 new Tuzatu(),
                 new Tysiac(),
                 new TysiacLicytowany(),
-                new Wist()
+                new Variety(),
+                new Wist(),
+                new Wybory()
             ]
         };
 
