@@ -37,6 +37,7 @@ import Planowanie from './games/Planowanie.jsx';
 import Poker from './games/Poker.jsx';
 import Wist from './games/Wist.jsx';
 import Preferans from './games/Preferans.jsx';
+import RemikGin from './games/RemikGin.jsx';
 
 
 class Content extends React.Component {
@@ -80,6 +81,7 @@ class Content extends React.Component {
                 <Route path={new Poker().state.url} component={Poker} />
                 <Route path={new Wist().state.url} component={Wist} />
                 <Route path={new Preferans().state.url} component={Preferans} />
+                <Route path={new RemikGin().state.url} component={RemikGin} />
             </Switch>
         );
     }

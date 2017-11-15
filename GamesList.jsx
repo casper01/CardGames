@@ -64,6 +64,10 @@ import PokerRownolegly from './games/PokerRownolegly.jsx';
 import Polignac from './games/Polignac.jsx';
 import Wist from './games/Wist.jsx';
 import Preferans from './games/Preferans.jsx';
+import RemikGin from './games/RemikGin.jsx';
+import Remik500 from './games/Remik500.jsx';
+import RemikOklahoma from './games/RemikOklahoma.jsx';
+import RemiBridz from './games/RemiBridz.jsx';
 
 
 class GamesList extends React.Component {
@@ -129,6 +133,10 @@ class GamesList extends React.Component {
                 new Polignac(),
                 new Pony(),
                 new Preferans(),
+                new Remik500(),
+                new RemikGin(),
+                new RemikOklahoma(),
+                new RemiBridz(),
                 new Samba(),
                 new SzescdziesiatSzesc(),
                 new TrzydziesciJeden(),
