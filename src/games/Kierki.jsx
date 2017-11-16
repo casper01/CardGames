@@ -30,14 +30,14 @@ export default class Kierki extends React.Component {
                             Oprócz podstawowych zasad Kierek, które są opisane jako pierwsze, istnieje kilka wariantów tej gry:
                         </p>
                         <ul>
-                            <li><a href="#dzokerowe" className="pure-menu-link underline">Kierki dżokerowe</a></li>
-                            <li><a href="#dominowe" className="pure-menu-link underline">Kierki dominowe</a></li>
-                            <li><a href="#licytowane" className="pure-menu-link underline">Kierki licytowane</a></li>
-                            <li><a href="#omnibus" className="pure-menu-link underline">Omnibus</a></li>
-                            <li><a href="#slobberhannes" className="pure-menu-link underline">Slobberhannes</a></li>
-                            <li><a href="#polignac" className="pure-menu-link underline">Polignac</a></li>
-                            <li><a href="#czarnamanka" className="pure-menu-link underline">Czarna Mańka</a></li>
-                            <li><a href="#metamorfoza" className="pure-menu-link underline">Metamorfoza</a></li>
+                            <li><a href={this.state.url + '#dzokerowe'} className="pure-menu-link underline">Kierki dżokerowe</a></li>
+                            <li><a href={this.state.url + '#dominowe'} className="pure-menu-link underline">Kierki dominowe</a></li>
+                            <li><a href={this.state.url + '#licytowane'} className="pure-menu-link underline">Kierki licytowane</a></li>
+                            <li><a href={this.state.url + '#omnibus'} className="pure-menu-link underline">Omnibus</a></li>
+                            <li><a href={this.state.url + '#slobberhannes'} className="pure-menu-link underline">Slobberhannes</a></li>
+                            <li><a href={this.state.url + '#polignac'} className="pure-menu-link underline">Polignac</a></li>
+                            <li><a href={this.state.url + '#czarnamanka'} className="pure-menu-link underline">Czarna Mańka</a></li>
+                            <li><a href={this.state.url + '#metamorfoza'} className="pure-menu-link underline">Metamorfoza</a></li>
                         </ul>
                     </div>
 

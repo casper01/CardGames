@@ -22,7 +22,7 @@ export default class Brydz extends React.Component {
                     <h1 className="content-subhead main-header">{this.state.name}</h1>
                     <div className="info">
                         Jako pierwsze opisane są przepisy brydża oparte na przepisach zatwierdzonych przez Światową Federację Brydża (WBF - World Bridge Federation) w 1948 roku. Pod nimi natomiast znajduje się kilka wariantów tej gry:<br />
-                        <a href="#booby" className="pure-menu-link underline">Booby</a> <a href="#nullo" className="pure-menu-link underline">Nullo</a> <a href="#szlem" className="pure-menu-link underline">Szlem</a> <a href="#chinski" className="pure-menu-link underline">Chiński brydż</a> <a href="#dwuosobowy" className="pure-menu-link underline">Brydż dwuosobowy</a><br />
+                        <a href={this.state.url + '#booby'} className="pure-menu-link underline">Booby</a> <a href={this.state.url + '#nullo'} className="pure-menu-link underline">Nullo</a> <a href={this.state.url + '#szlem'} className="pure-menu-link underline">Szlem</a> <a href={this.state.url + '#chinski'} className="pure-menu-link underline">Chiński brydż</a> <a href={this.state.url + '#dwuosobowy'} className="pure-menu-link underline">Brydż dwuosobowy</a><br />
 
                         Brydż jest grą współczesną, wywodzącą się pośrednio z różnych gier dawniejszych, takich jak wist, lombr, boston, plafond, wint, cayenne. Niektórzy historycy dopatrują się w dzisiejszym brydżu także znacznych wpływów dawnych gier rosyjskich ("bridge" ma być angielskim odpowiednikiem rosyjskiego "biricz") oraz gier indyjskich i bliskowschodnich (gry pod nazwą "kedyw", znanej w Konstantynopolu w drugiej połowie XIX wieku).<br />
 

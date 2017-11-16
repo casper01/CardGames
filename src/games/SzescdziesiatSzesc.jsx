@@ -122,15 +122,15 @@ export default class SzescdziesiatSzesc extends React.Component {
                         Wybrany losowo rozdający rozdaje każdemu graczowi po 4 karty naraz. Po rozdaniu wszyscy zaglądają w karty i zaczyna isę obieranie (licytacja). Rozpoczyna pierwszy gracz po lewej od rozdającego, tzw. Forant. Ma on trzy możliwości:
                     </p>
                     <ul>
-                        <li>może wybrać kolor, który będzie kolorem atutowym - grany jest wtedy <a href="#wlasciwy" className="pure-menu-link underline">OBIERANY</a> (właściwy);</li>
-                        <li>może powiedzieć: "KONTRA WARSZAWIE", czym sygnalizuje chęć grania w <a href="#warszawa" className="pure-menu-link underline">WARSZAWĘ</a>;</li>
+                        <li>może wybrać kolor, który będzie kolorem atutowym - grany jest wtedy <a href={this.state.url + '#wlasciwy'} className="pure-menu-link underline">OBIERANY</a> (właściwy);</li>
+                        <li>może powiedzieć: "KONTRA WARSZAWIE", czym sygnalizuje chęć grania w <a href={this.state.url + '#warszawa'} className="pure-menu-link underline">WARSZAWĘ</a>;</li>
                         <li>może powiedzieć: "DALEJ" (lub po prostu "PASS").</li>
                     </ul>
                     <p>
                         Jeżeli wybrał pierwszą możliwość, to "obieranie" zostało zakończone i rozdający może rozdać pozostałe karty (znowu po 4 naraz).<br />
                         Gdy wybierze drugą lub trzecią możliwość, prawo głosu ma następny gracz (a potem gracz trzeci), który również ma do wyboru powyższe trzy możliwości, z tym że w przypadku, gdy któryś z graczy dał KONTRĘ, następny może dać RE-KONTRĘ, a następny SUP.<br />
-                        Jeżeli wszyscy trzej gracze powiedzą DALEJ, to rozgrywana jest <a href="#warszawa" className="pure-menu-link underline">WARSZAWA</a> bez KONTRY.<br />
-                        Jeżeli obrana zostanie KONTRA lub RE-KONTRA, a następny gracz obierze jakiś kolor atutowy, to WARSZAWA zostaje anulowana i grany jest <a href="#wlasciwy" className="pure-menu-link underline">OBIERANY</a>.<br />
+                        Jeżeli wszyscy trzej gracze powiedzą DALEJ, to rozgrywana jest <a href={this.state.url + '#warszawa'} className="pure-menu-link underline">WARSZAWA</a> bez KONTRY.<br />
+                        Jeżeli obrana zostanie KONTRA lub RE-KONTRA, a następny gracz obierze jakiś kolor atutowy, to WARSZAWA zostaje anulowana i grany jest <a href={this.state.url + '#wlasciwy'} className="pure-menu-link underline">OBIERANY</a>.<br />
                         Po zakończeniu licytacji rozdający rozdaje pozostałe karty.
                     </p>
 
@@ -158,7 +158,7 @@ export default class SzescdziesiatSzesc extends React.Component {
                         Rozpoczyna się, gdy jeden z graczy obierze kolor atutowy w licytacji. Oznajmia on wszystkim: "OBRANE" i podaje obrany kolor atutowy. Można się też umówić, że nie musi podawać od razu koloru atutowego - odkłada wtedy kartę w tym kolorze zakrytą na bok, aby można było potem ustalić co wybrał (z tego wynika, iż musi mieć przynajmniej jedną kartę w obranym kolorze).
                     </p>
                     <p>
-                        Gdy rozdający rozda resztę kart rozpoczyna się kolejna licytacja. Gracze mogą teraz wybrać rozgrywkę w <a href="#mizerka" className="pure-menu-link underline">MIZERKĘ</a> lub w <a href="#druh" className="pure-menu-link underline">DRUHA</a>. Pierwszy ma możliwość wyboru gracz, który obrał kolor atutowy, jeśli jednak nie wybiera żadnej z tych rozgrywek pyta: "Czy ktoś coś ma?". Teraz pierwszeństwo w wyborze Fortan.<br />
+                        Gdy rozdający rozda resztę kart rozpoczyna się kolejna licytacja. Gracze mogą teraz wybrać rozgrywkę w <a href={this.state.url + '#mizerka'} className="pure-menu-link underline">MIZERKĘ</a> lub w <a href={this.state.url + '#druh'} className="pure-menu-link underline">DRUHA</a>. Pierwszy ma możliwość wyboru gracz, który obrał kolor atutowy, jeśli jednak nie wybiera żadnej z tych rozgrywek pyta: "Czy ktoś coś ma?". Teraz pierwszeństwo w wyborze Fortan.<br />
                         Jeżeli dwóch graczy chce grać w MIZERKĘ, to pierwszeństwo ma pierwszy z nich, gdy jednak jeden wybierze MIZERKĘ a drugi DRUHA, to DRUH ma pierwszeństwo. Jeśli żadna z tych dwóch rozgrywek nie zostanie wybrana obierający może grać w OBIERANEGO.
                     </p>
                     <p>
@@ -184,7 +184,7 @@ export default class SzescdziesiatSzesc extends React.Component {
                     <p>
                         W rozgrywce tej zmienia się starszeństwo kart, które jest tu następujące: A, K, D, W, 10, 9.<br />
                         Polega ona na tym, iż gracz który się na nią zdecydował, <strong>NIE MOŻE</strong> wziąć ani jednej lewy (sztycha). Jeśli to osiągnie - wygrywa, w przeciwnym wypadku przegrywa.<br />
-                        Zaraz przed rozgrywką, przeciwnicy mogą mu dać KONTRĘ, on może odpowiedzieć, itd. (jak przy grze w <a href="#wlasciwy" className="pure-menu-link underline">OBIERANEGO</a>). Stawka wtedy kolejno się podwaja.<br />
+                        Zaraz przed rozgrywką, przeciwnicy mogą mu dać KONTRĘ, on może odpowiedzieć, itd. (jak przy grze w <a href={this.state.url + '#wlasciwy'} className="pure-menu-link underline">OBIERANEGO</a>). Stawka wtedy kolejno się podwaja.<br />
                         Grę rozpoczyna gracz grający w MIZERKĘ. Zasady jak przy grze w 66 dla dwóch osób bez stosu.<br />
                         Nie ma koloru atutowego.
                     </p>
@@ -197,7 +197,7 @@ export default class SzescdziesiatSzesc extends React.Component {
                     <h2 className="content-subhead">Rozgrywka w DRUHA</h2>
                     <p>
                         Starszeństwo figur jak przy normalnej grze.<br />
-                        Zasady takie jak przy grze w <a href="#mizerka" className="pure-menu-link underline">MIZERKĘ</a>, z tym że <strong>trzeba</strong> wziąć wszystkie lewy (sztychy).<br />
+                        Zasady takie jak przy grze w <a href={this.state.url + '#mizerka'} className="pure-menu-link underline">MIZERKĘ</a>, z tym że <strong>trzeba</strong> wziąć wszystkie lewy (sztychy).<br />
                         Za rozgrywkę w DRUHA otrzymuje się 5pkt (oczywiście odpowiednio podojone przy grze z KONTRĄ, RE, itd.).<br />
                         Karty do następnej gry rozdaje , ten który wybrał grę w DRUHA.
                     </p>

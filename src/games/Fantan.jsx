@@ -1,4 +1,5 @@
 import { basePath } from '../utils';
+import Kierki from './Kierki.jsx';
 import React from 'react';
 
 
@@ -23,7 +24,7 @@ export default class Fantan extends React.Component {
                     <h1 className="content-subhead main-header">{this.state.name}</h1>
                     <div className="info">
                         Tradycyjna gra, nazywana także dominem karcianym, loteryjką i grą w parlament; znana i uprawiana w całej Europie.<br />
-                        Fantan był częścią obowiązującej rozgrywki przy grze w <a className="pure-menu-link underline" href="/kierki">kierki</a>
+                        Fantan był częścią obowiązującej rozgrywki przy grze w <a className="pure-menu-link underline" href={new Kierki().state.url}>kierki</a>
                     </div>
 
                     <h2 className="content-subhead">Gracze</h2>
@@ -66,7 +67,7 @@ export default class Fantan extends React.Component {
                         Można grać tak, iż przywilej dołożenia natychmiast jeszcze jednej karty do układu przysługuje nie tylko graczowi, który wyłożył asa, lecz także temu, który wyłożył dwójkę (a więc premiowane jest wyłożenie najstarszej i najmłodszej karty w każdym z kolorów).
                     </p>
                     <p>
-                        Fantan bywa również częścią obowiązującej rozgrywki przy grze w <a className="pure-menu-link underline" href="/kierki">kierki</a>. Wówczas tradycyjnie gra się nie do pierwszego wygrywającego, lecz do chwili, gdy pozbędą się kart dwaj gracze (pierwszy z nich otrzymuje tzw. pierwszą nagrodę, drugi - drugą).
+                        Fantan bywa również częścią obowiązującej rozgrywki przy grze w <a className="pure-menu-link underline" href={new Kierki().state.url}>kierki</a>. Wówczas tradycyjnie gra się nie do pierwszego wygrywającego, lecz do chwili, gdy pozbędą się kart dwaj gracze (pierwszy z nich otrzymuje tzw. pierwszą nagrodę, drugi - drugą).
                     </p>
                 </div>
             </div>

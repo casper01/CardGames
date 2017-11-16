@@ -211,7 +211,7 @@ export default class Poker extends React.Component {
                         Gracze, każdy dla siebie, dzielą swoje 25 kart na pięć pakietów po pięć kart w każdym, w sposób dowolny, układając kolejne pakiety zakryte przed sobą.
                     </p>
                     <p>
-                        W rozgrywce następuje kolejno porównywanie wartości pakietów kart, zestawionych przez obydwu graczy, jako tzw. "rąk pokerowych", tj. według <a className="pure-menu-link underline" href="#starszenstwo">starszeństwa układów kart</a> przyjętego w tradycyjnej grze w pokera
+                        W rozgrywce następuje kolejno porównywanie wartości pakietów kart, zestawionych przez obydwu graczy, jako tzw. "rąk pokerowych", tj. według <a className="pure-menu-link underline" href={this.state.url + '#starszenstwo'}>starszeństwa układów kart</a> przyjętego w tradycyjnej grze w pokera
                     </p>
                     <p>
                         Po zestawieniu przez graczy pięciu pakietów (figur pokerowych) następuje rozgrywka - ich porównanie.<br />

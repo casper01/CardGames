@@ -26,9 +26,9 @@ export default class RemikGin extends React.Component {
                         Najbardziej popularnym wariantem remika jest gra dla dwóch osób: remik gin (opisany jako pierwszy). Zasady do niego opracował w 1909 roku Elwood T. Baker z Brooklynu.<br />
                         Poniżej opisanych jest też kilka innych wariantów remika:
                         <ul>
-                            <li><a className="pure-menu-link underline" href="#bridge">Remi bridż</a></li>
-                            <li><a className="pure-menu-link underline" href="#oklahoma">Remik Oklahoma</a></li>
-                            <li><a className="pure-menu-link underline" href="#500">Remik 500</a></li>
+                            <li><a className="pure-menu-link underline" href={this.state.url + '#bridge'}>Remi bridż</a></li>
+                            <li><a className="pure-menu-link underline" href={this.state.url + '#oklahoma'}>Remik Oklahoma</a></li>
+                            <li><a className="pure-menu-link underline" href={this.state.url + '#500'}>Remik 500</a></li>
                         </ul>
                     </div>
 

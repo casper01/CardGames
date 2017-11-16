@@ -1,5 +1,6 @@
 import { basePath } from '../utils';
 import React from 'react';
+import Wist from './Wist.jsx';
 import preferansImg from '../images/preferans.gif';
 
 
@@ -22,7 +23,7 @@ export default class Preferans extends React.Component {
                 <div className="content">
                     <h1 className="content-subhead main-header">{this.state.name}</h1>
                     <div className="info">
-                        Dawny francuski wariant <a href="/wist" className="pure-menu-link underline">wista</a>, szczególnie popularny w Polsce w XIX i pierwszych latach XX wieku.
+                        Dawny francuski wariant <a href={new Wist().state.url} className="pure-menu-link underline">wista</a>, szczególnie popularny w Polsce w XIX i pierwszych latach XX wieku.
                     </div>
 
                     <h2 className="content-subhead">Gracze i karty</h2>
